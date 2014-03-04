@@ -46,7 +46,7 @@ class CfgVehicles {
 	};
 	
 	class FHQ_M4_Ammobox: NATO_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30Rnd_556x45_Stanag {
 				magazine="30Rnd_556x45_Stanag";
 				count=50;

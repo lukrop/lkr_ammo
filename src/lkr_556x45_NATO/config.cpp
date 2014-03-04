@@ -10,7 +10,8 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"A3_Weapons_F_EPA_Ammoboxes"
 		};
 		author[] = {
 			"lukrop"
@@ -270,7 +271,7 @@ class CfgVehicles {
 	};
 	
 	class Box_IND_Ammo_F: IND_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 12;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -283,7 +284,7 @@ class CfgVehicles {
 	};
 	
 	class Box_IND_Wps_F: IND_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 8;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -296,7 +297,7 @@ class CfgVehicles {
 	};
 	
 	class Box_IND_WpsSpecial_F: IND_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -309,7 +310,7 @@ class CfgVehicles {
 	};
 	
 	class Box_NATO_WpsSpecial_F: NATO_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -322,7 +323,7 @@ class CfgVehicles {
 	};
 	
 	class Box_East_WpsSpecial_F: EAST_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -335,7 +336,7 @@ class CfgVehicles {
 	};
 	
 	class I_supplyCrate_F: B_supplyCrate_F {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
@@ -348,7 +349,7 @@ class CfgVehicles {
 	};
 	
 	class IG_supplyCrate_F: B_supplyCrate_F {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";

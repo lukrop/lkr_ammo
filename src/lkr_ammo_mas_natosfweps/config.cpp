@@ -266,7 +266,7 @@ class CfgVehicles {
 	*/
 	
 	class Box_mas_all_rifle_Wps_F : Box_NATO_Wps_F {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30Rnd_556x45_Stanag {
 				magazine="30Rnd_556x45_Stanag";
 				count=120;
@@ -300,7 +300,7 @@ class CfgVehicles {
 	};
 	
 	class Box_mas_us_rifle_Wps_F : Box_NATO_Wps_F {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30Rnd_556x45_Stanag {
 				magazine="30Rnd_556x45_Stanag";
 				count=120;

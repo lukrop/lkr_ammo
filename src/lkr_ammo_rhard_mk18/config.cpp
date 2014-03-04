@@ -49,7 +49,7 @@ class CfgVehicles {
 	};
 	
 	class RHARD_Mk18_Ammobox: NATO_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30rnd_556x45_STANAG_Tracer_Red {
 				magazine="30rnd_556x45_STANAG_Tracer_Red";
 				count=50;

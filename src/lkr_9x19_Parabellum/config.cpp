@@ -10,7 +10,8 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"A3_Weapons_F_EPA_Ammoboxes"
 		};
 		author[] = {
 			"lukrop"
@@ -155,7 +156,7 @@ class CfgVehicles {
 	};
 	
 	class Box_NATO_Ammo_F : NATO_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_16Rnd_9x19_FMJFT_Mag {
 				count = 6;
 				magazine = "16Rnd_9x19_FMJFT_Mag";
@@ -172,7 +173,7 @@ class CfgVehicles {
 	};
 	
 	class Box_East_Ammo_F : EAST_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_16Rnd_9x19_FMJFT_Mag {
 				count = 6;
 				magazine = "16Rnd_9x19_FMJFT_Mag";
@@ -201,7 +202,7 @@ class CfgVehicles {
 	};
 	
 	class Box_IND_Ammo_F : IND_Box_Base {
-		class TransportMagazines : TransportMagazines {
+		class TransportMagazines {
 			class _xx_30Rnd_9x19_FMJFT_Mag {
 				count = 6;
 				magazine = "30Rnd_9x19_FMJFT_Mag";
