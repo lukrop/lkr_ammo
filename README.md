@@ -9,14 +9,16 @@ and I encourage every addon creator to use the magazines provided by the addon.
 
 To get you started I'll be adding several optional configs for some common weapon addons.
 
-We start with 5.56x45 and as soon as Spartan0536 provides more ballistic configs I'll add more rounds/magazines.
+We start with 5.56x45 and 9x19, as soon as Spartan0536 provides more ballistic configs I'll add more rounds/magazines.
 
-[1] http://forums.bistudio.com/showthread.php?173372-ArmA-III-5-56x45mm-Realistic-Ballistics
+[1] http://forums.bistudio.com/showthread.php?173466-ArmA-III-Ballistics-Overhaul
 
 lkr_556x45_nato.pbo
 --------------
-This addon adds two new rounds and updates the ballistics of the default 5.56x45 round.
-In the words of Spartan0536:
+This addon adds two new rounds and updates the ballistics of the default 5.56x45 round. It also adds the new magazines to
+several ammo boxes and makes the TRG-20, the TRG-21, the SDAR and the Mk20 compatible with the new magazines.
+
+In the words of Spartan0536 regarding the new round types:
 
  > __M855A1 EPR__
  > Very lethal against unarmored targets, kills in 1 shot to the chest out to 350m-400m with some variation, armor penetration on level III with SAAPI
@@ -60,7 +62,8 @@ Magazines:
 lkr_9x19_parabellum.pbo
 --------------
 This pbo introduces three new rounds, the _9x19 Full Metal Jacket Flat Tip_, the _9x19 Jacketed Hollow Point_ as well as the
-_9x19 Full Metal Jacket Penetrator +P+_.
+_9x19 Full Metal Jacket Penetrator +P+_. It makes the P07, the Rook40 and the Sting compatible with the new magazines and adds
+the new magazines to the default ammo box of each faction.
 
 ### Classnames:
 
@@ -72,7 +75,21 @@ B_9x19_FMJP
 ````
 Magazines:
 ````
-15Rnd_9x19_FMJFT_Mag
-15Rnd_9x19_JHP_Mag
-15Rnd_9x19_FMJP_Mag
+16Rnd_9x19_FMJFT_Mag
+16Rnd_9x19_JHP_Mag
+16Rnd_9x19_FMJP_Mag
+30Rnd_9x19_FMJFT_Mag
+30Rnd_9x19_JHP_Mag
+30Rnd_9x19_FMJP_Mag
 ````
+
+Optional .pbos
+--------------
+The following .pbos make the specific addon compatible with the new rounds/magazines. They also serve as example
+for mod authors.
+
+* lkr_ammo_fhq_m4.pbo
+* lkr_ammo_mas_natosfweps
+* lkr_ammo_r3f_armes
+* lkr_ammo_rh_m4
+* lkr_ammo_rhard_mk18
