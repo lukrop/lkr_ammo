@@ -34,7 +34,7 @@ about 5 shots at 350m, default 5.56 was killing in 7-8 at the same range
 
 ### Classnames:
 
-New rounds:
+Rounds:
 ````
 B_556x45_Mk318_Ball
 B_556x45_Mk318_Ball_Tracer_Green
@@ -45,7 +45,7 @@ B_556x45_Mk262_Ball_Tracer_Green
 B_556x45_Mk262_Ball_Tracer_Red
 B_556x45_Mk262_Ball_Tracer_Yellow
 ````
-New magazines:
+Magazines:
 ````
 30Rnd_556x45_Mk318_Stanag
 30Rnd_556x45_Mk318_Stanag_Tracer_Green
@@ -55,4 +55,24 @@ New magazines:
 30Rnd_556x45_Mk262_Stanag_Tracer_Green
 30Rnd_556x45_Mk262_Stanag_Tracer_Red
 30Rnd_556x45_Mk262_Stanag_Tracer_Yellow
+````
+
+lkr_9x19_parabellum.pbo
+--------------
+This pbo introduces three new rounds, the _9x19 Full Metal Jacket Flat Tip_, the _9x19 Jacketed Hollow Point_ as well as the
+_9x19 Full Metal Jacket Penetrator +P+_.
+
+### Classnames:
+
+Rounds:
+````
+B_9x19_FMJFT
+B_9x19_JHP
+B_9x19_FMJP
+````
+Magazines:
+````
+15Rnd_9x19_FMJFT_Mag
+15Rnd_9x19_JHP_Mag
+15Rnd_9x19_FMJP_Mag
 ````

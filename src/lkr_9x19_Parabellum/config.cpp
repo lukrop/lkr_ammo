@@ -62,7 +62,7 @@ class CfgAmmo
 
 class CfgMagazines {
 	class 16Rnd_9x21_Mag;
-	class 15Rnd_9x19_FMJFT : 16Rnd_9x21_Mag
+	class 15Rnd_9x19_FMJFT_Mag : 16Rnd_9x21_Mag
 	{
 		ammo = "B_9x19_FMJFT";
 		initSpeed = 304.8;
@@ -71,7 +71,7 @@ class CfgMagazines {
 		count = 15;
 	};
 	
-	class 15Rnd_9x19_JHP : 16Rnd_9x21_Mag
+	class 15Rnd_9x19_JHP_Mag : 16Rnd_9x21_Mag
 	{
 		ammo = "B_9x19_JHP";
 		initSpeed = 350.52;
@@ -80,7 +80,7 @@ class CfgMagazines {
 		count = 15;
 	};
 	
-	class 15Rnd_9x19_FMJP : 16Rnd_9x21_Mag
+	class 15Rnd_9x19_FMJP_Mag : 16Rnd_9x21_Mag
 	{
 		ammo = "B_9x19_FMJP";
 		initSpeed = 393.192;
