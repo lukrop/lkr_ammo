@@ -27,22 +27,22 @@ class CfgAmmo
 	class BulletBase;
 	class B_556x45_Ball : BulletBase
 	{
-		hit = 9.72;
+		hit = 9.04;
 		typicalSpeed = 960.12;
 		airFriction = -0.0007713274;
-		caliber = 0.998;
-		deflecting = 20;
+		caliber = 1.01;
+		deflecting = 21;
 		visibleFire = 3;
 		audibleFire = 7;
 	};
 	
 	class B_556x45_Mk318_Ball : B_556x45_Ball
 	{
-		hit = 9.94;
+		hit = 9.52;
 		typicalSpeed = 950.3664;
 		airFriction = -0.000773845;
-		caliber = 0.877;
-		deflecting = 16;
+		caliber = 0.879;
+		deflecting = 17;
 		visibleFire = 3;
 		audibleFire = 5.5;
 	};
@@ -64,11 +64,11 @@ class CfgAmmo
 	
 	class B_556x45_Mk262_Ball : B_556x45_Ball
 	{
-		hit = 10.17;
+		hit = 10.26;
 		typicalSpeed = 838.2;
 		airFriction = -0.0006541367;
-		caliber = 0.769;
-		deflecting = 14;
+		caliber = 0.777;
+		deflecting = 15;
 		visibleFire = 2.5;
 		audibleFire = 5;
 	};
