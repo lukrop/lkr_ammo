@@ -57,6 +57,12 @@ Magazines:
 30Rnd_556x45_Mk262_Stanag_Tracer_Green
 30Rnd_556x45_Mk262_Stanag_Tracer_Red
 30Rnd_556x45_Mk262_Stanag_Tracer_Yellow
+100Rnd_556x45_Pouch
+100Rnd_556x45_Pouch_Tracer_Green
+100Rnd_556x45_Pouch_Tracer_Red
+200Rnd_556x45_Box
+200Rnd_556x45_Box_Tracer_Green
+200Rnd_556x45_Box_Tracer_Red
 ````
 
 lkr_9x19_parabellum.pbo
@@ -81,6 +87,41 @@ Magazines:
 30Rnd_9x19_FMJFT_Mag
 30Rnd_9x19_JHP_Mag
 30Rnd_9x19_FMJP_Mag
+````
+
+lkr_762x51_nato.pbo
+--------------
+This pbo introduces just one new round and modifies the standard 7.62x51 by BIS. The default 7.62x51
+is marked as a M80A1 cartridge and the new round is a Mk316 Mod 0 cartridge. The addon also makes the
+Mk18 and the Rahim compatible with the new magazines. 
+
+
+### Classnames:
+
+Rounds:
+````
+B_762x51_Mk316_Ball
+B_762x51_Mk316_Ball_Tracer_Green
+B_762x51_Mk316_Ball_Tracer_Red
+````
+
+Magazines:
+````
+5Rnd_762x51_Mag
+5Rnd_762x51_Mag_Tracer_Green
+5Rnd_762x51_Mag_Tracer_Red
+5Rnd_762x51_Mk316_Mag
+5Rnd_762x51_Mk316_Mag_Tracer_Green
+5Rnd_762x51_Mk316_Mag_Tracer_Red
+10Rnd_762x51_Mk316_Mag
+10Rnd_762x51_Mk316_Mag_Tracer_Green
+10Rnd_762x51_Mk316_Mag_Tracer_Red
+20Rnd_762x51_Mk316_Mag
+20Rnd_762x51_Mk316_Mag_Tracer_Green
+20Rnd_762x51_Mk316_Mag_Tracer_Red
+100Rnd_762x51_Mag
+100Rnd_762x51_Mag_Tracer_Green
+100Rnd_762x51_Mag_Tracer_Red
 ````
 
 Optional .pbos

@@ -153,6 +153,50 @@ class CfgMagazines {
 		descriptionShort = $STR_30RND_556x45_MK262_YELLOW_TRACER_DESCRIPTION_SHORT;
 		tracersEvery = 1;
 	};
+	
+	class 100Rnd_556x45_Pouch : 30Rnd_556x45_Stanag {
+		count = 100;
+		initSpeed = 960.12;
+		displayName = $STR_100RND_556x45_DISPLAY_NAME;
+		descriptionShort = $STR_100RND_556x45_DESCRIPTION_SHORT;
+		picture = "\A3\Weapons_F\Data\UI\M_200Rnd_65x39_CA.paa";
+		mass = 16;
+	};
+	
+	class 100Rnd_556x45_Pouch_Tracer_Green : 100Rnd_556x45_Pouch {
+		ammo = "B_556x45_Ball_Tracer_Green";
+		displayName = $STR_100RND_556x45_GREEN_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_100RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT;
+		tracersEvery = 5;
+	};
+	
+	class 100Rnd_556x45_Pouch_Tracer_Red : 100Rnd_556x45_Pouch {
+		ammo = "B_556x45_Ball_Tracer_Red";
+		displayName = $STR_100RND_556x45_RED_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_100RND_556x45_RED_TRACER_DESCRIPTION_SHORT;
+		tracersEvery = 5;
+	};
+	
+	class 200Rnd_556x45_Box : 100Rnd_556x45_Pouch {
+		count = 200;
+		displayName = $STR_200RND_556x45_DISPLAY_NAME;
+		descriptionShort = $STR_200RND_556x45_DESCRIPTION_SHORT;
+		mass = 32;
+	};
+	
+	class 200Rnd_556x45_Box_Tracer_Green : 200Rnd_556x45_Box {
+		ammo = "B_556x45_Ball_Tracer_Green";
+		displayName = $STR_200RND_556x45_GREEN_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_200RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT;
+		tracersEvery = 5;
+	};
+	
+	class 200Rnd_556x45_Box_Tracer_Red : 200Rnd_556x45_Box {
+		ammo = "B_556x45_Ball_Tracer_Red";
+		displayName = $STR_200RND_556x45_RED_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_200RND_556x45_RED_TRACER_DESCRIPTION_SHORT;
+		tracersEvery = 5;
+	};
 };
 
 class CfgWeapons {
