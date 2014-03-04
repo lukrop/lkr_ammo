@@ -12,6 +12,7 @@ class CfgPatches {
 		requiredAddons[] = {
 			"lkr_556x45_NATO",
 			"lkr_762x51_NATO",
+			"lkr_9x19_Parabellum",
 			"mas_weapons",
 			"mas_weapons_m4",
 			"mas_weapons_ak"

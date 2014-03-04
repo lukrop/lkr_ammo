@@ -11,6 +11,8 @@ class CfgPatches {
 		requiredVersion = 0.1;
 		requiredAddons[] = {
 			"lkr_556x45_NATO",
+			"lkr_762x51_NATO",
+			"lkr_9x19_Parabellum",
 			"r3f_armes_c"
 		};
 	};
@@ -98,13 +100,20 @@ class CfgWeapons {
 		};
 	};
 	
-	/*
+	
 	class R3F_FRF2: Rifle_Base_F {
 		magazines[] = {
+			"10Rnd_762x51_Mag",
+			"10Rnd_762x51_Mag_Tracer_Red",
+			"10Rnd_762x51_Mag_Tracer_Green",
+			"10Rnd_762x51_Mk316_Mag",
+			"10Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"10Rnd_762x51_Mk316_Mag_Tracer_Red",
 			"R3F_10Rnd_762x51_FRF2"
 		};
 	};
 	
+	/*
 	class R3F_PGM_Hecate_II: Rifle_Base_F {
 		magazines[] = {
 			"R3F_7Rnd_127x99_PGM",
@@ -125,9 +134,12 @@ class CfgWeapons {
 	
 	class R3F_Minimi: Rifle_Base_F {
 		magazines[] = {
-			"R3F_200Rnd_556x45_MINIMI",
-			"R3F_30Rnd_556x45_FAMAS",
-			"R3F_30Rnd_556x45_TRACER_FAMAS",
+			"200Rnd_556x45_Box",
+			"200Rnd_556x45_Box_Tracer_Red",
+			"200Rnd_556x45_Box_Tracer_Green",
+			"100Rnd_556x45_Pouch",
+			"100Rnd_556x45_Pouch_Tracer_Red",
+			"100Rnd_556x45_Pouch_Tracer_Green",
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
 			"30Rnd_556x45_Stanag_Tracer_Green",
@@ -139,26 +151,32 @@ class CfgWeapons {
 			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
 			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow"
+			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
+			"R3F_200Rnd_556x45_MINIMI",
+			"R3F_30Rnd_556x45_FAMAS",
+			"R3F_30Rnd_556x45_TRACER_FAMAS"
 		};
 	};
 	
-	/*
 	class R3F_Minimi_762: R3F_Minimi {
 		magazines[] = {
-			"R3F_100Rnd_762x51_MINIMI",
-			"100Rnd_mas_762x51_Stanag",
-			"100Rnd_mas_762x51_T_Stanag"
+			"100Rnd_762x51_Box",
+			"100Rnd_762x51_Box_Tracer_Red",
+			"100Rnd_762x51_Box_Tracer_Green",
+			"R3F_100Rnd_762x51_MINIMI"
 		};
 	};
-	*/
 	
 	class R3F_HK417M: Rifle_Base_F {
 		magazines[] = {
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag_Tracer_Red",
+			"20Rnd_762x51_Mag_Tracer_Green",
+			"20Rnd_762x51_Mk316_Mag",
+			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
+			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
 			"R3F_20Rnd_762x51_HK417",
-			"R3F_20Rnd_762x51_TRACER_HK417",
-			"20Rnd_mas_762x51_Stanag",
-			"20Rnd_mas_762x51_T_Stanag"
+			"R3F_20Rnd_762x51_TRACER_HK417"
 		};
 	};
 	
@@ -182,13 +200,16 @@ class CfgWeapons {
 			"R3F_30Rnd_556x45_TRACER_FAMAS"
 		};
 	};
-	/*
+	
 	class R3F_MP5SD: Rifle_Base_F {
 		magazines[] = {
+			"30Rnd_9x19_FMJFT_Mag",
+			"30Rnd_9x19_JHP_Mag",
+			"30Rnd_9x19_FMJP_Mag",
 			"R3F_30Rnd_9x19_MP5",
 			"30Rnd_mas_9x21_Stanag",
 			"30Rnd_mas_9x21d_Stanag"
 		};
 	};
-	*/
+	
 };
