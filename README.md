@@ -18,19 +18,19 @@ lkr_556x45_nato.pbo
 This addon adds two new rounds and updates the ballistics of the default 5.56x45 round.
 In the words of Spartan0536:
 
-__M855A1 EPR__
-Very lethal against unarmored targets, kills in 1 shot to the chest out to 350m-400m with some variation, armor penetration on level III with SAAPI
-plates is about 4 shots @ 350m, this round is a general purpose round like its real life counterpart, it has the best penetration rate of
-all 3 rounds but it is yaw dependent on damage so it also has the lowest hit factor to compensate for this as best as possible.
-
-__Mk 318 Mod 0__
-Very lethal against unarmoed targets, kills in 1 shot to the chest out to 400m, armor penetration on level III with SAAPI plates is about
-5 shots @ 350m, very similar performance at medium range when comparing to Mk262 Mod 1, like its real life counterpart this round is most
-effective at ranges from 0-300m and is designed for enhanced performance out of shorter barrel rifles.
-
-__MK262 Mod 1__
-VERY lethal against unarmored targets, kills in 1 shot to the chest easily out to 400m, armor penetration on level III with SAAPI plates is 
-about 5 shots at 350m, default 5.56 was killing in 7-8 at the same range
+> __M855A1 EPR__
+> Very lethal against unarmored targets, kills in 1 shot to the chest out to 350m-400m with some variation, armor penetration on level III with SAAPI
+> plates is about 4 shots @ 350m, this round is a general purpose round like its real life counterpart, it has the best penetration rate of
+> all 3 rounds but it is yaw dependent on damage so it also has the lowest hit factor to compensate for this as best as possible.
+>
+> __Mk 318 Mod 0__
+> Very lethal against unarmoed targets, kills in 1 shot to the chest out to 400m, armor penetration on level III with SAAPI plates is about
+> 5 shots @ 350m, very similar performance at medium range when comparing to Mk262 Mod 1, like its real life counterpart this round is most
+> effective at ranges from 0-300m and is designed for enhanced performance out of shorter barrel rifles.
+>
+> __MK262 Mod 1__
+> VERY lethal against unarmored targets, kills in 1 shot to the chest easily out to 400m, armor penetration on level III with SAAPI plates is 
+> about 5 shots at 350m, default 5.56 was killing in 7-8 at the same range
 
 ### Classnames:
 
