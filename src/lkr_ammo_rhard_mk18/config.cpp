@@ -47,8 +47,8 @@ class CfgWeapons
 };
 
 class CfgVehicles {
-	class Reammo_Box_F;
-	class NATO_Box_Base : Reammo_Box_F
+	class ReammoBox_F;
+	class NATO_Box_Base : ReammoBox_F
 	{
 		class TransportMagazines;
 	};
