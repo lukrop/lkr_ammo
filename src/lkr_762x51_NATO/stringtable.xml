@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="lkr_762x51_NATO">
+  <Package name="mags">
+	<!-- M80A1 !-->
+	<Key ID="STR_5RND_762x51_DISPLAY_NAME">
+      <Original>7.62mm 5rnd M80A1</Original>
+      <German>7.62mm 5rnd M80A1</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: M80A1</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: M80A1</German>
+    </Key>
+	
+	<Key ID="STR_5RND_762x51_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 5rnd M80A1 Red Tracer</Original>
+      <German>7.62mm 5rnd M80A1 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_5RND_762x51_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 5rnd M80A1 Green Tracer</Original>
+      <German>7.62mm 5rnd M80A1 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_DISPLAY_NAME">
+      <Original>7.62mm 10rnd M80A1</Original>
+      <German>7.62mm 10rnd M80A1</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: M80A1</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: M80A1</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 10rnd M80A1 Red Tracer</Original>
+      <German>7.62mm 10rnd M80A1 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 10rnd M80A1 Green Tracer</Original>
+      <German>7.62mm 10rnd M80A1 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_DISPLAY_NAME">
+      <Original>7.62mm 20rnd M80A1</Original>
+      <German>7.62mm 20rnd M80A1</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: M80A1</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: M80A1</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 20rnd M80A1 Red Tracer</Original>
+      <German>7.62mm 20rnd M80A1 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 20rnd M80A1 Green Tracer</Original>
+      <German>7.62mm 20rnd M80A1 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_100RND_762x51_DISPLAY_NAME">
+      <Original>7.62mm 100rnd M80A1</Original>
+      <German>7.62mm 100rnd M80A1</German>
+    </Key>
+	<Key ID="STR_100RND_762x51_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M80A1</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M80A1</German>
+    </Key>
+	
+	<Key ID="STR_100RND_762x51_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 100rnd M80A1 Red Tracer</Original>
+      <German>7.62mm 100rnd M80A1 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_100RND_762x51_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_100RND_762x51_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 100rnd M80A1 Green Tracer</Original>
+      <German>7.62mm 100rnd M80A1 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_100RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_150RND_762x51_DISPLAY_NAME">
+      <Original>7.62mm 150rnd M80A1</Original>
+      <German>7.62mm 150rnd M80A1</German>
+    </Key>
+	<Key ID="STR_150RND_762x51_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 150&lt;br /&gt;Cartridge: M80A1</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 150&lt;br /&gt;Patrone: M80A1</German>
+    </Key>
+	
+	<Key ID="STR_150RND_762x51_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 150rnd M80A1 Green Tracer</Original>
+      <German>7.62mm 150rnd M80A1 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_150RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 150&lt;br /&gt;Cartridge: M80A1&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 150&lt;br /&gt;Patrone: M80A1&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<!-- MK316 MOD 0 !-->
+	<Key ID="STR_5RND_762x51_MK316_DISPLAY_NAME">
+      <Original>7.62mm 5rnd Mk316</Original>
+      <German>7.62mm 5rnd Mk316</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_MK316_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: Mk316 Mod 0</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: Mk316 Mod 0</German>
+    </Key>
+	
+	<Key ID="STR_5RND_762x51_MK316_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 5rnd Mk316 Red Tracer</Original>
+      <German>7.62mm 5rnd Mk316 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_5RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 5rnd Mk316 Green Tracer</Original>
+      <German>7.62mm 5rnd Mk316 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_5RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_MK316_DISPLAY_NAME">
+      <Original>7.62mm 10rnd Mk316</Original>
+      <German>7.62mm 10rnd Mk316</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_MK316_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: Mk316 Mod 0</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: Mk316 Mod 0</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_MK316_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 10rnd Mk316 Red Tracer</Original>
+      <German>7.62mm 10rnd Mk316 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_10RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 10rnd Mk316 Green Tracer</Original>
+      <German>7.62mm 10rnd Mk316 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_10RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_MK316_DISPLAY_NAME">
+      <Original>7.62mm 20rnd Mk316</Original>
+      <German>7.62mm 20rnd Mk316</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_MK316_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: Mk316 Mod 0</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: Mk316 Mod 0</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_MK316_RED_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 20rnd Mk316 Red Tracer</Original>
+      <German>7.62mm 20rnd Mk316 Rote Tracer</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Red</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Rot</German>
+    </Key>
+	
+	<Key ID="STR_20RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME">
+      <Original>7.62mm 20rnd Mk316 Green Tracer</Original>
+      <German>7.62mm 20rnd Mk316 Grüne Tracer</German>
+    </Key>
+	<Key ID="STR_20RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT">
+      <Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 20&lt;br /&gt;Cartridge: Mk316 Mod 0&lt;br /&gt;Tracer: Green</Original>
+      <German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 20&lt;br /&gt;Patrone: Mk316 Mod 0&lt;br /&gt;Tracer: Grün</German>
+    </Key>
+	
+  </Package>
+</Project>
