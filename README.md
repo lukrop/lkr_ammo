@@ -11,6 +11,8 @@ To get you started I'll be adding several optional configs for some common weapo
 
 We start with 5.56x45 and 9x19, as soon as Spartan0536 provides more ballistic configs I'll add more rounds/magazines.
 
+Please note that this mod is **incompatible with tmr_ballistics.pbo**.
+
 [1] http://forums.bistudio.com/showthread.php?173466-ArmA-III-Ballistics-Overhaul
 
 lkr_556x45_nato.pbo
@@ -134,7 +136,8 @@ The following .pbos make the specific addon compatible with the new rounds/magaz
 for mod authors.
 
 * lkr_ammo_fhq_m4.pbo
-* lkr_ammo_mas_natosfweps
-* lkr_ammo_r3f_armes
-* lkr_ammo_rh_m4
-* lkr_ammo_rhard_mk18
+* lkr_ammo_mas_natosfweps.pbp
+* lkr_ammo_r3f_armes.pbo
+* lkr_ammo_rh_m4.pbo
+* lkr_ammo_rhard_mk18.pbo
+* lkr_ammo_u100.pbo
