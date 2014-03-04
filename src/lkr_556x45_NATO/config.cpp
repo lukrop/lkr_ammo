@@ -272,91 +272,175 @@ class CfgVehicles {
 	
 	class Box_IND_Ammo_F: IND_Box_Base {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 12;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 12;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 12;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 12;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 12;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class Box_IND_Wps_F: IND_Box_Base {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 8;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 8;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 8;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 8;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 8;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class Box_IND_WpsSpecial_F: IND_Box_Base {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class Box_NATO_WpsSpecial_F: NATO_Box_Base {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class Box_East_WpsSpecial_F: EAST_Box_Base {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 3;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class I_supplyCrate_F: B_supplyCrate_F {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
 	
 	class IG_supplyCrate_F: B_supplyCrate_F {
 		class TransportMagazines {
+			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
+			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
+			};
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
+			};
+			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
+				count = 24;
+				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};

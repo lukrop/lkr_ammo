@@ -14,8 +14,7 @@ class CfgPatches {
 			"lkr_762x51_NATO",
 			"lkr_9x19_Parabellum",
 			"mas_weapons",
-			"mas_weapons_m4",
-			"mas_weapons_ak"
+			"mas_weapons_m4"
 		};
 		author[] = {
 			"lukrop"
