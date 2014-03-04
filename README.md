@@ -95,6 +95,10 @@ This pbo introduces just one new round and modifies the standard 7.62x51 by BIS.
 is marked as a M80A1 cartridge and the new round is a Mk316 Mod 0 cartridge. The addon also makes the
 Mk18 and the Rahim compatible with the new magazines. 
 
+### ATTENTION
+**The ballistic information for the 7.62x51 M80A1 and Mk316 Mod 0 cartridges are only estimated (no extensive research/calculations like the
+work of Spartan0536).** We'll have to wait until/if Sparan0536 releases any ballistic data.
+
 
 ### Classnames:
 
@@ -119,9 +123,9 @@ Magazines:
 20Rnd_762x51_Mk316_Mag
 20Rnd_762x51_Mk316_Mag_Tracer_Green
 20Rnd_762x51_Mk316_Mag_Tracer_Red
-100Rnd_762x51_Mag
-100Rnd_762x51_Mag_Tracer_Green
-100Rnd_762x51_Mag_Tracer_Red
+100Rnd_762x51_Box
+100Rnd_762x51_Box_Tracer_Green
+100Rnd_762x51_Box_Tracer_Red
 ````
 
 Optional .pbos
