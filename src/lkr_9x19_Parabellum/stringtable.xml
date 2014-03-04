@@ -7,8 +7,8 @@
       <German>9mm 16rnd FMJ Flat Tip</German>
     </Key>
 	<Key ID="STR_16RND_9x19_FMJFT_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Roundtype: Full Metal Jacket Flat Tip</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Kugeltyp: Full Metal Jacket Flat Tip</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Cartridge: Full Metal Jacket Flat Tip</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Patrone: Full Metal Jacket Flat Tip</German>
     </Key>
 	
 	<Key ID="STR_30RND_9x19_FMJFT_DISPLAY_NAME">
@@ -16,8 +16,8 @@
       <German>9mm 30rnd FMJ Flat Tip</German>
     </Key>
 	<Key ID="STR_30RND_9x19_FMJFT_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Roundtype: Full Metal Jacket Flat Tip</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Kugeltyp: Full Metal Jacket Flat Tip</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Full Metal Jacket Flat Tip</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Full Metal Jacket Flat Tip</German>
     </Key>
 	<!-- Jacketed Hollow Point !-->
 	<Key ID="STR_16RND_9x19_JHP_DISPLAY_NAME">
@@ -25,8 +25,8 @@
       <German>9mm 16rnd JHP</German>
     </Key>
 	<Key ID="STR_16RND_9x19_JHP_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Roundtype: Jacketed Hollow Point</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Kugeltyp: Jacketed Hollow Point</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Cartridge: Jacketed Hollow Point</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Patrone: Jacketed Hollow Point</German>
     </Key>
 	
 	<Key ID="STR_30RND_9x19_JHP_DISPLAY_NAME">
@@ -34,8 +34,8 @@
       <German>9mm 30rnd JHP</German>
     </Key>
 	<Key ID="STR_30RND_9x19_JHP_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Roundtype: Jacketed Hollow Point</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Kugeltyp: Jacketed Hollow Point</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Jacketed Hollow Point</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Jacketed Hollow Point</German>
     </Key>
 	<!-- Full Metal Jacket Penetrator !-->
 	<Key ID="STR_16RND_9x19_FMJP_DISPLAY_NAME">
@@ -43,8 +43,8 @@
       <German>9mm 16rnd FMJ Penetrator</German>
     </Key>
 	<Key ID="STR_16RND_9x19_FMJP_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Roundtype: Full Metal Jacket Penetrator</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Kugeltyp: Full Metal Jacket Penetrator</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 16&lt;br /&gt;Cartridge: Full Metal Jacket Penetrator</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 16&lt;br /&gt;Patrone: Full Metal Jacket Penetrator</German>
     </Key>
 	
 	<Key ID="STR_30RND_9x19_FMJP_DISPLAY_NAME">
@@ -52,8 +52,8 @@
       <German>9mm 30rnd FMJ Penetrator</German>
     </Key>
 	<Key ID="STR_30RND_9x19_FMJP_DESCRIPTION_SHORT">
-      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Roundtype: Full Metal Jacket Penetrator</Original>
-      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Kugeltyp: Full Metal Jacket Penetrator</German>
+      <Original>Caliber: 9x19 mm&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Full Metal Jacket Penetrator</Original>
+      <German>Kaliber: 9x19 mm&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Full Metal Jacket Penetrator</German>
     </Key>
   </Package>
 </Project>
