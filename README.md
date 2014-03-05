@@ -3,7 +3,7 @@ lkr_ammo
 This addon has two goals. The first is to bring the ballistics of several rounds to a realistic level. I'm
 using Spartan0536's data provided in his thread in the BI Forums [1], to create rounds and magazines. Big thanks to him at this point!
 
-The second goal is to unify/centralize rounds and magazines. As of now there are several great weapon addons which are all using different types of
+The second goal, for me personally the more important one, is to unify/centralize rounds and magazines. As of now there are several great weapon addons which are all using different types of
 rounds and magazines, mostly created by the addon itself. To reduce redundancy with the most common rounds and magazines this addon provides a solid base
 and I encourage every addon creator to use the magazines provided by the addon.
 
