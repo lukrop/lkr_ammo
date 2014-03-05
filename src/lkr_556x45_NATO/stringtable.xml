@@ -1,156 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="lkr_556x45_NATO">
-  <Package name="mags">
-	<!-- M855A1 EPR !-->
-	<Key ID="STR_30RND_556x45_DISPLAY_NAME">
-      <Original>5.56mm 30rnd M855A1</Original>
-      <German>5.56mm 30rnd M855A1</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M855A1 EPR</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR</German>
-    </Key>
-    <Key ID="STR_30RND_556x45_GREEN_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd M855A1 Green Tracer</Original>
-      <German>5.56mm 30rnd M855A1 Grüne Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Green</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Grün</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_RED_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd M855A1 Red Tracer</Original>
-      <German>5.56mm 30rnd M855A1 Rote Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_RED_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Red</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Rot</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_YELLOW_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd M855A1 Yellow Tracer</Original>
-      <German>5.56mm 30rnd M855A1 Gelbe Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_YELLOW_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Yellow</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Gelb</German>
-    </Key>
+	<Package name="mags">
+		<!-- 30 Round M855A1 EPR !-->
+		<Key ID="STR_30RND_556x45_DISPLAY_NAME">
+			<Original>5.56mm 30rnd M855A1</Original>
+		</Key>
+		<Key ID="STR_30RND_556x45_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M855A1 EPR</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR</German>
+		</Key>
+
+		<!-- 30 Round M856A1 Tracer !-->
+		<Key ID="STR_30RND_556x45_TRACER_DISPLAY_NAME">
+			<Original>5.56mm 30rnd M856A1 Tracer</Original>
+		</Key>
+		<Key ID="STR_30RND_556x45_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M856A1 Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M856A1 Tracer</German>
+		</Key>
+
+		<!-- 100 Round M855A1 EPR !-->
+		<Key ID="STR_100RND_556x45_DISPLAY_NAME">
+			<Original>5.56mm 100rnd M855A1</Original>
+		</Key>
+		<Key ID="STR_100RND_556x45_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M855A1 EPR</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M855A1 EPR</German>
+		</Key>
+
+		<!-- 100 Round M855A1 Tracer !-->
+		<Key ID="STR_100RND_556x45_TRACER_DISPLAY_NAME">
+			<Original>5.56mm 100rnd M855A1 Tracer</Original>
+		</Key>
+		<Key ID="STR_100RND_556x45_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M855A1 Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M855A1 Tracer</German>
+		</Key>
+
+		<!-- 200 Round M855A1 EPR !-->
+		<Key ID="STR_200RND_556x45_DISPLAY_NAME">
+			<Original>5.56mm 200rnd M855A1</Original>
+		</Key>
+		<Key ID="STR_200RND_556x45_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 200&lt;br /&gt;Cartridge: M855A1 EPR</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 200&lt;br /&gt;Patrone: M855A1 EPR</German>
+		</Key>
+
+		<!-- 200 Round M855A1 Tracer !-->
+		<Key ID="STR_200RND_556x45_TRACER_DISPLAY_NAME">
+			<Original>5.56mm 200rnd M855A1 Tracer</Original>
+		</Key>
+		<Key ID="STR_200RND_556x45_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 200&lt;br /&gt;Cartridge: M855A1 Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 200&lt;br /&gt;Patrone: M855A1 Tracer</German>
+		</Key>
 	
-	<Key ID="STR_100RND_556x45_DISPLAY_NAME">
-      <Original>5.56mm 100rnd M855A1</Original>
-      <German>5.56mm 100rnd M855A1</German>
-    </Key>
-	<Key ID="STR_100RND_556x45_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M855A1 EPR</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M855A1 EPR</German>
-    </Key>
-    <Key ID="STR_100RND_556x45_GREEN_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 100rnd M855A1 Green Tracer</Original>
-      <German>5.56mm 100rnd M855A1 Grüne Tracer</German>
-    </Key>
-	<Key ID="STR_100RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Green</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Grün</German>
-    </Key>
-	<Key ID="STR_100RND_556x45_RED_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 100rnd M855A1 Red Tracer</Original>
-      <German>5.56mm 100rnd M855A1 Rote Tracer</German>
-    </Key>
-	<Key ID="STR_100RND_556x45_RED_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Red</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Rot</German>
-    </Key>
-	
-	<Key ID="STR_200RND_556x45_DISPLAY_NAME">
-      <Original>5.56mm 200rnd M855A1</Original>
-      <German>5.56mm 200rnd M855A1</German>
-    </Key>
-	<Key ID="STR_200RND_556x45_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 200&lt;br /&gt;Cartridge: M855A1 EPR</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 200&lt;br /&gt;Patrone: M855A1 EPR</German>
-    </Key>
-    <Key ID="STR_200RND_556x45_GREEN_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 200rnd M855A1 Green Tracer</Original>
-      <German>5.56mm 200rnd M855A1 Grüne Tracer</German>
-    </Key>
-	<Key ID="STR_200RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 200&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Green</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 200&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Grün</German>
-    </Key>
-	<Key ID="STR_200RND_556x45_RED_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 200rnd M855A1 Red Tracer</Original>
-      <German>5.56mm 200rnd M855A1 Rote Tracer</German>
-    </Key>
-	<Key ID="STR_200RND_556x45_RED_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 200&lt;br /&gt;Cartridge: M855A1 EPR&lt;br /&gt;Tracer: Red</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 200&lt;br /&gt;Patrone: M855A1 EPR&lt;br /&gt;Tracer: Rot</German>
-    </Key>
-	
-	<!-- Mk318 Mod 0 SOST !-->
-	<Key ID="STR_30RND_556x45_MK318_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk318</Original>
-      <German>5.56mm 30rnd Mk318</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk318 Mod 0 SOST</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk318 Mod 0 SOST</German>
-    </Key>
-    <Key ID="STR_30RND_556x45_MK318_GREEN_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk318 Green Tracer</Original>
-      <German>5.56mm 30rnd Mk318 Grüne Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_GREEN_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Green</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Grün</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_RED_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk318 Red Tracer</Original>
-      <German>5.56mm 30rnd Mk318 Rote Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_RED_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Red</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Rot</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_YELLOW_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk318 Yellow Tracer</Original>
-      <German>5.56mm 30rnd Mk318 Gelbe Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK318_YELLOW_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Yellow</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk318 Mod 0 SOST&lt;br /&gt;Tracer: Gelb</German>
-    </Key>
-	<!-- Mk262 Mod 1 SPR !-->
-	<Key ID="STR_30RND_556x45_MK262_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk262</Original>
-      <German>5.56mm 30rnd Mk262</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk262 Mod 1 SPR</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk262 Mod 1 SPR</German>
-    </Key>
-    <Key ID="STR_30RND_556x45_MK262_GREEN_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk262 Green Tracer</Original>
-      <German>5.56mm 30rnd Mk262 Grüne Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_GREEN_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Green</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Grün</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_RED_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk262 Red Tracer</Original>
-      <German>5.56mm 30rnd Mk262 Rote Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_RED_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Red</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Rot</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_YELLOW_TRACER_DISPLAY_NAME">
-      <Original>5.56mm 30rnd Mk262 Yellow Tracer</Original>
-      <German>5.56mm 30rnd Mk262 Gelbe Tracer</German>
-    </Key>
-	<Key ID="STR_30RND_556x45_MK262_YELLOW_TRACER_DESCRIPTION_SHORT">
-      <Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Yellow</Original>
-      <German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk262 Mod 1 SPR&lt;br /&gt;Tracer: Gelb</German>
-    </Key>
-	
-  </Package>
+		<!-- Mk318 Mod 0 SOST !-->
+		<Key ID="STR_30RND_556x45_MK318_DISPLAY_NAME">
+			<Original>5.56mm 30rnd Mk318</Original>
+		</Key>
+		<Key ID="STR_30RND_556x45_MK318_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk318 Mod 0 SOST</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk318 Mod 0 SOST</German>
+		</Key>
+
+		<!-- Mk262 Mod 1 SPR !-->
+		<Key ID="STR_30RND_556x45_MK262_DISPLAY_NAME">
+			<Original>5.56mm 30rnd Mk262</Original>
+		</Key>
+		<Key ID="STR_30RND_556x45_MK262_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: Mk262 Mod 1 SPR</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: Mk262 Mod 1 SPR</German>
+		</Key>
+	</Package>
 </Project>

@@ -21,6 +21,8 @@ class CfgPatches {
 
 class CfgAmmo {
 	class BulletBase;
+
+	// M855A1
 	class B_556x45_Ball : BulletBase {
 		hit = 9.04;
 		typicalSpeed = 960.12;
@@ -31,6 +33,7 @@ class CfgAmmo {
 		audibleFire = 7;
 	};
 	
+	// Mk318 Mod 0 SOST
 	class B_556x45_Mk318_Ball : B_556x45_Ball {
 		hit = 9.52;
 		typicalSpeed = 950.3664;
@@ -41,18 +44,7 @@ class CfgAmmo {
 		audibleFire = 5.5;
 	};
 	
-	class B_556x45_Mk318_Ball_Tracer_Yellow : B_556x45_Mk318_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; 
-	};
-	
-	class B_556x45_Mk318_Ball_Tracer_Red : B_556x45_Mk318_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_red"; 
-	};
-	
-	class B_556x45_Mk318_Ball_Tracer_Green : B_556x45_Mk318_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_green"; 
-	};
-	
+	// Mk262 
 	class B_556x45_Mk262_Ball : B_556x45_Ball {
 		hit = 10.26;
 		typicalSpeed = 838.2;
@@ -63,17 +55,6 @@ class CfgAmmo {
 		audibleFire = 5;
 	};
 	
-	class B_556x45_Mk262_Ball_Tracer_Yellow : B_556x45_Mk262_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow"; 
-	};
-	
-	class B_556x45_Mk262_Ball_Tracer_Red : B_556x45_Mk262_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_red"; 
-	};
-	
-	class B_556x45_Mk262_Ball_Tracer_Green : B_556x45_Mk262_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_green"; 
-	};
 };
 
 class CfgMagazines {
@@ -84,75 +65,9 @@ class CfgMagazines {
 		descriptionShort = $STR_30RND_556x45_DESCRIPTION_SHORT;
 	};
 	
-	class 30Rnd_556x45_Stanag_Tracer_Green : 30Rnd_556x45_Stanag {
-		displayName = $STR_30RND_556x45_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT;
-	};
-	
 	class 30Rnd_556x45_Stanag_Tracer_Red : 30Rnd_556x45_Stanag {
-		displayName = $STR_30RND_556x45_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_RED_TRACER_DESCRIPTION_SHORT;
-	};
-	
-	class 30Rnd_556x45_Stanag_Tracer_Yellow : 30Rnd_556x45_Stanag {
-		displayName = $STR_30RND_556x45_YELLOW_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_YELLOW_TRACER_DESCRIPTION_SHORT;
-	};
-	
-	class 30Rnd_556x45_Mk318_Stanag : 30Rnd_556x45_Stanag {
-		ammo = "B_556x45_Mk318_Ball";
-		initSpeed = 950.3664;
-		displayName = $STR_30RND_556x45_MK318_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK318_DESCRIPTION_SHORT;
-	};
-	
-	class 30Rnd_556x45_Mk318_Stanag_Tracer_Green : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk318_Ball_Tracer_Green";
-		displayName = $STR_30RND_556x45_MK318_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK318_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
-	};
-	
-	class 30Rnd_556x45_Mk318_Stanag_Tracer_Red : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk318_Ball_Tracer_Red";
-		displayName = $STR_30RND_556x45_MK318_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK318_RED_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
-	};
-	
-	class 30Rnd_556x45_Mk318_Stanag_Tracer_Yellow : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk318_Ball_Tracer_Yellow";
-		displayName = $STR_30RND_556x45_MK318_YELLOW_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK318_YELLOW_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
-	};
-	
-	class 30Rnd_556x45_Mk262_Stanag : 30Rnd_556x45_Stanag {
-		ammo = "B_556x45_Mk262_Ball";
-		initSpeed = 838.2;
-		displayName = $STR_30RND_556x45_MK262_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK262_DESCRIPTION_SHORT;
-	};
-	
-	class 30Rnd_556x45_Mk262_Stanag_Tracer_Green : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk262_Ball_Tracer_Green";
-		displayName = $STR_30RND_556x45_MK262_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK262_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
-	};
-	
-	class 30Rnd_556x45_Mk262_Stanag_Tracer_Red : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk262_Ball_Tracer_Red";
-		displayName = $STR_30RND_556x45_MK262_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK262_RED_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
-	};
-	
-	class 30Rnd_556x45_Mk262_Stanag_Tracer_Yellow : 30Rnd_556x45_Mk318_Stanag {
-		ammo = "B_556x45_Mk262_Ball_Tracer_Yellow";
-		displayName = $STR_30RND_556x45_MK262_YELLOW_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_MK262_YELLOW_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 1;
+		displayName = $STR_30RND_556x45_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_TRACER_DESCRIPTION_SHORT;
 	};
 	
 	class 100Rnd_556x45_Pouch : 30Rnd_556x45_Stanag {
@@ -164,17 +79,10 @@ class CfgMagazines {
 		mass = 16;
 	};
 	
-	class 100Rnd_556x45_Pouch_Tracer_Green : 100Rnd_556x45_Pouch {
-		ammo = "B_556x45_Ball_Tracer_Green";
-		displayName = $STR_100RND_556x45_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_100RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 5;
-	};
-	
-	class 100Rnd_556x45_Pouch_Tracer_Red : 100Rnd_556x45_Pouch {
+	class 100Rnd_556x45_Pouch_Tracer : 100Rnd_556x45_Pouch {
 		ammo = "B_556x45_Ball_Tracer_Red";
-		displayName = $STR_100RND_556x45_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_100RND_556x45_RED_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_100RND_556x45_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_100RND_556x45_TRACER_DESCRIPTION_SHORT;
 		tracersEvery = 5;
 	};
 	
@@ -185,19 +93,27 @@ class CfgMagazines {
 		mass = 32;
 	};
 	
-	class 200Rnd_556x45_Box_Tracer_Green : 200Rnd_556x45_Box {
-		ammo = "B_556x45_Ball_Tracer_Green";
-		displayName = $STR_200RND_556x45_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_200RND_556x45_GREEN_TRACER_DESCRIPTION_SHORT;
+	class 200Rnd_556x45_Box_Tracer : 200Rnd_556x45_Box {
+		ammo = "B_556x45_Ball_Tracer_Red";
+		displayName = $STR_200RND_556x45_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_200RND_556x45_TRACER_DESCRIPTION_SHORT;
 		tracersEvery = 5;
+	};
+
+	class 30Rnd_556x45_Mk318_Stanag : 30Rnd_556x45_Stanag {
+		ammo = "B_556x45_Mk318_Ball";
+		initSpeed = 950.3664;
+		displayName = $STR_30RND_556x45_MK318_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_MK318_DESCRIPTION_SHORT;
 	};
 	
-	class 200Rnd_556x45_Box_Tracer_Red : 200Rnd_556x45_Box {
-		ammo = "B_556x45_Ball_Tracer_Red";
-		displayName = $STR_200RND_556x45_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_200RND_556x45_RED_TRACER_DESCRIPTION_SHORT;
-		tracersEvery = 5;
+	class 30Rnd_556x45_Mk262_Stanag : 30Rnd_556x45_Stanag {
+		ammo = "B_556x45_Mk262_Ball";
+		initSpeed = 838.2;
+		displayName = $STR_30RND_556x45_MK262_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_MK262_DESCRIPTION_SHORT;
 	};
+	
 };
 
 class CfgWeapons {
@@ -206,16 +122,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow"
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow"
 		};
 	};
 	
@@ -224,16 +134,10 @@ class CfgWeapons {
 			"20Rnd_556x45_UW_mag",
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow"
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow"
 		};
 	};
 	
@@ -241,16 +145,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
 			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow"
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow"
 		};
 	};
 };
@@ -276,21 +174,15 @@ class CfgVehicles {
 				count = 12;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 12;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 12;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 12;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
-			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 12;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
 			};
 		};
 	};
@@ -301,22 +193,17 @@ class CfgVehicles {
 				count = 8;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 8;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 8;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 8;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 8;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 	
@@ -326,22 +213,17 @@ class CfgVehicles {
 				count = 3;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 	
@@ -351,22 +233,17 @@ class CfgVehicles {
 				count = 3;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 	
@@ -376,22 +253,17 @@ class CfgVehicles {
 				count = 3;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 3;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 3;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 	
@@ -401,22 +273,17 @@ class CfgVehicles {
 				count = 24;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 24;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 24;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 	
@@ -426,22 +293,17 @@ class CfgVehicles {
 				count = 24;
 				magazine  = "30Rnd_556x45_Stanag_Tracer_Red";
 			};
+
 			class _xx_30_Rnd_556x45_Mk318_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk318_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk318_Stanag_Tracer_Red {
-				count = 24;
-				magazine  = "30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-			};
+
 			class _xx_30_Rnd_556x45_Mk262_Stanag {
 				count = 24;
 				magazine  = "30Rnd_556x45_Mk262_Stanag";
 			};
-			class _xx_30_Rnd_556x45_Mk262_Stanag_Tracer_Red {
-				count = 24;
-				magazine  = "30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-			};
+
 		};
 	};
 };
