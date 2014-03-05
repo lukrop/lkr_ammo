@@ -6,12 +6,26 @@ a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, Calif
 
 class CfgPatches {
 	class lkr_556x45_NATO {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.0;
+		units[] = {
+			"Box_IND_Ammo_F",
+			"Box_IND_Wps_F",
+			"Box_IND_WpsSpecial_F",
+			"Box_NATO_WpsSpecial_F",
+			"Box_East_WpsSpecial_F",
+			"I_supplyCrate_F"
+		};
+		weapons[] = {
+			"mk20_base_F",
+			"SDAR_base_F",
+			"Tavor_base_F"
+		};
+		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"A3_Weapons_F",
-			"A3_Weapons_F_EPA_Ammoboxes"
+			"A3_Weapons_F_Rifles_Mk20",
+			"A3_Weapons_F_Rifles_SDAR",
+			"A3_Weapons_F_Rifles_TRG20",
+			"A3_Weapons_F_Beta_Ammoboxes",
+			"A3_Weapons_F_EPB_Ammoboxes"
 		};
 		author[] = {
 			"lukrop"
@@ -66,10 +80,20 @@ class CfgMagazines {
 	};
 	
 	class 30Rnd_556x45_Stanag_Tracer_Red : 30Rnd_556x45_Stanag {
-		displayName = $STR_30RND_556x45_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_30RND_556x45_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_30RND_556x45_TRACER_RED_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_TRACER_RED_DESCRIPTION_SHORT;
 	};
 	
+	class 30Rnd_556x45_Stanag_Tracer_Green : 30Rnd_556x45_Stanag {
+		displayName = $STR_30RND_556x45_TRACER_GREEN_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_TRACER_GREEN_DESCRIPTION_SHORT;
+	};
+
+	class 30Rnd_556x45_Stanag_Tracer_Yellow : 30Rnd_556x45_Stanag {
+		displayName = $STR_30RND_556x45_TRACER_YELLOW_DISPLAY_NAME;
+		descriptionShort = $STR_30RND_556x45_TRACER_YELLOW_DESCRIPTION_SHORT;
+	};
+
 	class 100Rnd_556x45_Pouch : 30Rnd_556x45_Stanag {
 		count = 100;
 		initSpeed = 960.12;
@@ -287,6 +311,7 @@ class CfgVehicles {
 		};
 	};
 	
+	/*
 	class IG_supplyCrate_F: B_supplyCrate_F {
 		class TransportMagazines {
 			class _xx_30_Rnd_556x45_Stanag_Tracer_Red {
@@ -306,4 +331,5 @@ class CfgVehicles {
 
 		};
 	};
+	*/
 };

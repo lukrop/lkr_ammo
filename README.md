@@ -11,7 +11,10 @@ To get you started I'll be adding several optional configs for some common weapo
 
 We start with 5.56x45 and 9x19, as soon as Spartan0536 provides more ballistic configs I'll add more rounds/magazines.
 
-Please note that this mod is **incompatible with tmr_ballistics.pbo**.
+Please note that this mod is **incompatible with tmr_ballistics.pbo**. You can still use TMR but you'll have
+to remove tmr_ballistics.pbo.
+
+Discussion and updates: http://forums.bistudio.com/showthread.php?174095-lkr_ammo
 
 [1] http://forums.bistudio.com/showthread.php?173466-ArmA-III-Ballistics-Overhaul
 
@@ -41,36 +44,22 @@ In the words of Spartan0536 regarding the new round types:
 Rounds:
 ````
 B_556x45_Mk318_Ball
-B_556x45_Mk318_Ball_Tracer_Green
-B_556x45_Mk318_Ball_Tracer_Red
-B_556x45_Mk318_Ball_Tracer_Yellow
 B_556x45_Mk262_Ball
-B_556x45_Mk262_Ball_Tracer_Green
-B_556x45_Mk262_Ball_Tracer_Red
-B_556x45_Mk262_Ball_Tracer_Yellow
 ````
 Magazines:
 ````
 30Rnd_556x45_Mk318_Stanag
-30Rnd_556x45_Mk318_Stanag_Tracer_Green
-30Rnd_556x45_Mk318_Stanag_Tracer_Red
-30Rnd_556x45_Mk318_Stanag_Tracer_Yellow
 30Rnd_556x45_Mk262_Stanag
-30Rnd_556x45_Mk262_Stanag_Tracer_Green
-30Rnd_556x45_Mk262_Stanag_Tracer_Red
-30Rnd_556x45_Mk262_Stanag_Tracer_Yellow
 100Rnd_556x45_Pouch
-100Rnd_556x45_Pouch_Tracer_Green
-100Rnd_556x45_Pouch_Tracer_Red
+100Rnd_556x45_Pouch_Tracer
 200Rnd_556x45_Box
-200Rnd_556x45_Box_Tracer_Green
-200Rnd_556x45_Box_Tracer_Red
+200Rnd_556x45_Box_Tracer
 ````
 
 lkr_9x19_parabellum.pbo
 --------------
 This pbo introduces three new rounds, the _9x19 Full Metal Jacket Flat Tip_, the _9x19 Jacketed Hollow Point_ as well as the
-_9x19 Full Metal Jacket Penetrator +P+_. It makes the P07, the Rook40 and the Sting compatible with the new magazines and adds
+_9x19 Full Metal Jacket Penetrator +P+_. It makes the P07, the Rook40, the Sting and the PDW2000 compatible with the new magazines and adds
 the new magazines to the default ammo box of each faction.
 
 ### Classnames:
@@ -93,13 +82,15 @@ Magazines:
 
 lkr_762x51_nato.pbo
 --------------
-This pbo introduces just one new round and modifies the standard 7.62x51 by BIS. The default 7.62x51
-is marked as a M80A1 cartridge and the new round is a Mk316 Mod 0 cartridge. The addon also makes the
-Mk18 and the Rahim compatible with the new magazines. 
+This pbo introduces two new rounds and modifies the standard 7.62x51 by BIS. The default 7.62x51
+is marked as a M80A1 cartridge. One new round is a Mk316 Mod 0 cartridge for more accuracy and the other is the
+M993 armor-piercing round. The addon also makes the Mk18 and the Rahim compatible with the new magazines.
+
+It also adds 5Rnd and 100Rnd magazines for use in different weapon addons.
 
 ### ATTENTION
-**The ballistic information for the 7.62x51 M80A1 and Mk316 Mod 0 cartridges are only estimated (no extensive research/calculations like the
-work of Spartan0536).** We'll have to wait until/if Sparan0536 releases any ballistic data.
+**The ballistic information for the 7.62x51 M80A1, M992 and Mk316 Mod 0 cartridges are only estimated (no extensive research/calculations like the
+work of Spartan0536).** We'll have to wait until/if Spartan0536 releases any ballistic data.
 
 
 ### Classnames:
@@ -107,27 +98,23 @@ work of Spartan0536).** We'll have to wait until/if Sparan0536 releases any ball
 Rounds:
 ````
 B_762x51_Mk316_Ball
-B_762x51_Mk316_Ball_Tracer_Green
-B_762x51_Mk316_Ball_Tracer_Red
+B_762x51_M993_Ball
 ````
 
 Magazines:
 ````
 5Rnd_762x51_Mag
-5Rnd_762x51_Mag_Tracer_Green
-5Rnd_762x51_Mag_Tracer_Red
+5Rnd_762x51_Mag_Tracer
 5Rnd_762x51_Mk316_Mag
-5Rnd_762x51_Mk316_Mag_Tracer_Green
-5Rnd_762x51_Mk316_Mag_Tracer_Red
+5Rnd_762x51_M993_Mag
+10Rnd_762x51_Mag_Tracer
 10Rnd_762x51_Mk316_Mag
-10Rnd_762x51_Mk316_Mag_Tracer_Green
-10Rnd_762x51_Mk316_Mag_Tracer_Red
+10Rnd_762x51_M993_Mag
+20Rnd_762x51_Mag_Tracer
 20Rnd_762x51_Mk316_Mag
-20Rnd_762x51_Mk316_Mag_Tracer_Green
-20Rnd_762x51_Mk316_Mag_Tracer_Red
+20Rnd_762x51_M993_Mag
 100Rnd_762x51_Box
-100Rnd_762x51_Box_Tracer_Green
-100Rnd_762x51_Box_Tracer_Red
+100Rnd_762x51_Box_Tracer
 ````
 
 Optional .pbos

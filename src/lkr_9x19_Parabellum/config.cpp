@@ -6,12 +6,24 @@ a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, Calif
 
 class CfgPatches {
 	class lkr_9x19_Parabellum {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.0;
+		units[] = {
+			"Box_NATO_Ammo_F",
+			"Box_East_Ammo_F",
+			"Box_IND_Ammo_F"
+		};
+		weapons[] = {
+			"hgun_P07_F",
+			"hgun_Rook40_F",
+			"pdw2000_base_F",
+			"SMG_02_base_F"
+		};
+		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"A3_Weapons_F",
-			"A3_Weapons_F_EPA_Ammoboxes"
+			"A3_Weapons_F_Pistols_P07",
+			"A3_Weapons_F_Pistols_Rook40",
+			"A3_Weapons_F_Pistols_PDW2000",
+			"a3_weapons_f_rifles_SMG_02",
+			"A3_Weapons_F_EPB_Ammoboxes"
 		};
 		author[] = {
 			"lukrop"

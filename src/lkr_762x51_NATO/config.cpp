@@ -6,12 +6,28 @@ a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, Calif
 
 class CfgPatches {
 	class lkr_762x51_NATO {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.0;
+		units[] = {
+			"Box_NATO_Ammo_F",
+			"Box_IND_Ammo_F",
+			"Box_East_Ammo_F",
+			"Box_IND_WpsSpecial_F",
+			"Box_NATO_WpsSpecial_F",
+			"Box_East_WpsSpecial_F",
+			"I_supplyCrate_F",
+			"B_supplyCrate_F",
+			"O_supplyCrate_F",
+			"C_supplyCrate_F"
+		};
+		weapons[] = {
+			"DMR_01_base_F",
+			"EBR_base_F"
+		};
+		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"A3_Weapons_F",
-			"A3_Weapons_F_EPA"
+			"A3_Weapons_F_EPA_EBR",
+			"A3_Weapons_F_EPA_LongRangeRifles_DMR_01",
+			"A3_Weapons_F_beta_Ammoboxes",
+			"A3_Weapons_F_EPB_Ammoboxes"
 		};
 		author[] = {
 			"lukrop"
@@ -21,8 +37,9 @@ class CfgPatches {
 
 class CfgAmmo {
 	class BulletBase;
+	// M80A1
 	class B_762x51_Ball : BulletBase {
-		hit = 14;
+		//hit = 14;
 		typicalSpeed = 833;
 		//airFriction = ;
 		//caliber = ;
@@ -30,7 +47,21 @@ class CfgAmmo {
 		//visibleFire = ;
 		//audibleFire = ;
 	};
-	
+
+	/*
+	// M62 Tracer
+	class B_762x51_Tracer_Red : B_762x51_Ball {
+		//hit = 14;
+		//typicalSpeed = 833;
+		//airFriction = ;
+		//caliber = ;
+		//deflecting = ;
+		//visibleFire = ;
+		//audibleFire = ;
+	};
+	*/
+
+	// Mk316 Mod 0
 	class B_762x51_Mk316_Ball : B_762x51_Ball {
 		hit = 14;
 		typicalSpeed = 790;
@@ -40,13 +71,16 @@ class CfgAmmo {
 		visibleFire = 5;
 		audibleFire = 7;
 	};
-	
-	class B_762x51_Mk316_Ball_Tracer_Red : B_762x51_Mk316_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_red"; 
-	};
-	
-	class B_762x51_Mk316_Ball_Tracer_Green : B_762x51_Mk316_Ball {
-		model = "\A3\Weapons_f\Data\bullettracer\tracer_green"; 
+
+	// M993 armor-piercing
+	class B_762x51_M993_Ball : B_762x51_Ball {
+		hit = 15;
+		typicalSpeed = 788;
+		//airFriction = ;
+		caliber = 2;
+		//deflecting = ;
+		//visibleFire = ;
+		//audibleFire = ;
 	};
 	
 };
@@ -61,17 +95,11 @@ class CfgMagazines {
 		descriptionShort = $STR_20RND_762x51_DESCRIPTION_SHORT;
 	};
 	
-	class 20Rnd_762x51_Mag_Tracer_Green : 20Rnd_762x51_Mag {
-		ammo = "B_762x51_Tracer_Green";
-		displayName = $STR_20RND_762x51_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_20RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
-	class 20Rnd_762x51_Mag_Tracer_Red : 20Rnd_762x51_Mag {
+	// 20Rnd M62 Tracer
+	class 20Rnd_762x51_Mag_Tracer : 20Rnd_762x51_Mag {
 		ammo = "B_762x51_Tracer_Red";
-		displayName = $STR_20RND_762x51_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_20RND_762x51_RED_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_20RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_20RND_762x51_TRACER_DESCRIPTION_SHORT;
 		tracerEvery = 1;
 	};
 	
@@ -82,19 +110,13 @@ class CfgMagazines {
 		displayName = $STR_20RND_762x51_MK316_DISPLAY_NAME;
 		descriptionShort = $STR_20RND_762x51_MK316_DESCRIPTION_SHORT;
 	};
-	
-	class 20Rnd_762x51_Mk316_Mag_Tracer_Green : 20Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Green";
-		displayName = $STR_20RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_20RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
-	class 20Rnd_762x51_Mk316_Mag_Tracer_Red : 20Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Red";
-		displayName = $STR_20RND_762x51_MK316_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_20RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+
+	// 20Rnd M993 AP
+	class 20Rnd_762x51_M993_Mag : 20Rnd_762x51_Mag {
+		ammo = "B_762x51_M993_Ball";
+		initSpeed = 788;
+		displayName = $STR_20RND_762x51_M993_DISPLAY_NAME;
+		descriptionShort = $STR_20RND_762x51_M993_DESCRIPTION_SHORT;
 	};
 	
 	// 10Rnd M80A1
@@ -103,18 +125,12 @@ class CfgMagazines {
 		displayName = $STR_10RND_762x51_DISPLAY_NAME;
 		descriptionShort = $STR_10RND_762x51_DESCRIPTION_SHORT;
 	};
-	
-	class 10Rnd_762x51_Mag_Tracer_Green : 10Rnd_762x51_Mag {
-		ammo = "B_762x51_Tracer_Green";
-		displayName = $STR_10RND_762x51_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_10RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
-	class 10Rnd_762x51_Mag_Tracer_Red : 10Rnd_762x51_Mag {
+
+	// 10Rnd M62 Tracer
+	class 10Rnd_762x51_Mag_Tracer : 10Rnd_762x51_Mag {
 		ammo = "B_762x51_Tracer_Red";
-		displayName = $STR_10RND_762x51_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_10RND_762x51_RED_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_10RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_10RND_762x51_TRACER_DESCRIPTION_SHORT;
 		tracerEvery = 1;
 	};
 	
@@ -125,19 +141,13 @@ class CfgMagazines {
 		displayName = $STR_10RND_762x51_MK316_DISPLAY_NAME;
 		descriptionShort = $STR_10RND_762x51_MK316_DESCRIPTION_SHORT;
 	};
-	
-	class 10Rnd_762x51_Mk316_Mag_Tracer_Green : 10Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Green";
-		displayName = $STR_10RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_10RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
-	class 10Rnd_762x51_Mk316_Mag_Tracer_Red : 10Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Red";
-		displayName = $STR_10RND_762x51_MK316_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_10RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+
+	// 10Rnd M993
+	class 10Rnd_762x51_M993_Mag : 10Rnd_762x51_Mag {
+		ammo = "B_762x51_M993_Ball";
+		initSpeed = 788;
+		displayName = $STR_10RND_762x51_M993_DISPLAY_NAME;
+		descriptionShort = $STR_10RND_762x51_M993_DESCRIPTION_SHORT;
 	};
 	
 	// 5Rnd M80A1
@@ -150,17 +160,11 @@ class CfgMagazines {
 		mass = 3;
 	};
 	
-	class 5Rnd_762x51_Mag_Tracer_Green : 5Rnd_762x51_Mag {
-		ammo = "B_762x51_Tracer_Green";
-		displayName = $STR_5RND_762x51_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_5RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
-	class 5Rnd_762x51_Mag_Tracer_Red : 5Rnd_762x51_Mag {
+	// 5Rnd M62 Tracer
+	class 5Rnd_762x51_Mag_Tracer : 5Rnd_762x51_Mag {
 		ammo = "B_762x51_Tracer_Red";
-		displayName = $STR_5RND_762x51_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_5RND_762x51_RED_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_5RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_5RND_762x51_TRACER_DESCRIPTION_SHORT;
 		tracerEvery = 1;
 	};
 	
@@ -172,31 +176,26 @@ class CfgMagazines {
 		descriptionShort = $STR_5RND_762x51_MK316_DESCRIPTION_SHORT;
 	};
 	
-	class 5Rnd_762x51_Mk316_Mag_Tracer_Green : 5Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Green";
-		displayName = $STR_5RND_762x51_MK316_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_5RND_762x51_MK316_GREEN_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+	// 5Rnd M993
+	class 5Rnd_762x51_M993_Mag : 5Rnd_762x51_Mag {
+		ammo = "B_762x51_M993_Ball";
+		initSpeed = 788;
+		displayName = $STR_5RND_762x51_M993_DISPLAY_NAME;
+		descriptionShort = $STR_5RND_762x51_M993_DESCRIPTION_SHORT;
 	};
-	
-	class 5Rnd_762x51_Mk316_Mag_Tracer_Red : 5Rnd_762x51_Mk316_Mag {
-		ammo = "B_762x51_Mk316_Ball_Tracer_Red";
-		displayName = $STR_5RND_762x51_MK316_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_5RND_762x51_MK316_RED_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
-	};
-	
+
 	// 150Rnd M80A1
 	class 150Rnd_762x51_Box : CA_Magazine {
 		displayName = $STR_150RND_762x51_DISPLAY_NAME;
 		descriptionShort = $STR_150RND_762x51_DESCRIPTION_SHORT;
 	};
 	
+	// 150Rnd M62 Tracer
 	class 150Rnd_762x51_Box_Tracer : 150Rnd_762x51_Box {
-		displayName = $STR_150RND_762x51_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_150RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_150RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_150RND_762x51_TRACER_DESCRIPTION_SHORT;
 	};
-	
+
 	// 100Rnd M80A1
 	class 100Rnd_762x51_Box : 150Rnd_762x51_Box {
 		count = 100;
@@ -204,17 +203,13 @@ class CfgMagazines {
 		descriptionShort = $STR_100RND_762x51_DESCRIPTION_SHORT;
 	};
 	
-	class 100Rnd_762x51_Box_Tracer_Green : 150Rnd_762x51_Box_Tracer {
-		count = 100;
-		displayName = $STR_100RND_762x51_GREEN_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_100RND_762x51_GREEN_TRACER_DESCRIPTION_SHORT;
-	};
-	
+	// 100Rnd M62 Tracer
 	class 100Rnd_762x51_Box_Tracer_Red : 150Rnd_762x51_Box_Tracer {
 		ammo = "B_762x51_Tracer_Red";
 		count = 100;
-		displayName = $STR_100RND_762x51_RED_TRACER_DISPLAY_NAME;
-		descriptionShort = $STR_100RND_762x51_RED_TRACER_DESCRIPTION_SHORT;
+		displayName = $STR_100RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_100RND_762x51_TRACER_DESCRIPTION_SHORT;
+		tracerEvery = 5;
 	};
 	
 };
@@ -224,23 +219,250 @@ class CfgWeapons {
 	class DMR_01_base_F : Rifle_Long_Base_F {
 		magazines[] = {
 			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag_Tracer_Red",
-			"10Rnd_762x51_Mag_Tracer_Green",
+			"10Rnd_762x51_Mag_Tracer",
 			"10Rnd_762x51_Mk316_Mag",
-			"10Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"10Rnd_762x51_Mk316_Mag_Tracer_Green"
+			"10Rnd_762x51_M993_Mag"
 		};
 	};
 	
 	class EBR_base_F : Rifle_Long_Base_F {
 		magazines[] = {
 			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
+			"20Rnd_762x51_Mag_Tracer",
 			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green"
+			"20Rnd_762x51_M993_Mag"
 		};
 	};
 	
 };
+
+class CfgVehicles {
+	class thingX;
+
+	class ReammoBox_F : thingX {
+		class TransportMagazines;
+	};
+
+	class IND_Box_Base : ReammoBox_F {
+		class TransportMagazines;
+	};
+	class NATO_Box_Base : ReammoBox_F {
+		class TransportMagazines;
+	};
+	class EAST_Box_Base : ReammoBox_F {
+		class TransportMagazines;
+	};
+
+
+	class Box_NATO_Ammo_F: NATO_Box_Base {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	class Box_IND_Ammo_F: IND_Box_Base {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+
+	class Box_East_Ammo_F: EAST_Box_Base {
+		class TransportMagazines {
+			class _xx_10Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "10Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_10Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "10Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_10Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "10Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	class Box_IND_WpsSpecial_F: IND_Box_Base {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 12;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 12;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 12;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	class Box_NATO_WpsSpecial_F: NATO_Box_Base {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 12;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 12;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 12;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	class Box_East_WpsSpecial_F: EAST_Box_Base {
+		class TransportMagazines {
+			class _xx_10Rnd_762x51_Mag_Tracer {
+				count = 12;
+				magazine  = "10Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_10Rnd_762x51_Mk316_Mag {
+				count = 12;
+				magazine  = "10Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_10Rnd_762x51_M993_Mag {
+				count = 12;
+				magazine  = "10Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+
+	class B_supplyCrate_F: ReammoBox_F {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+
+	class C_supplyCrate_F: ReammoBox_F {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	class I_supplyCrate_F: B_supplyCrate_F {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	
+	/*
+	class IG_supplyCrate_F: B_supplyCrate_F {
+		class TransportMagazines {
+			class _xx_20Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_20Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_20Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "20Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+	*/
+
+	class O_supplyCrate_F: B_supplyCrate_F {
+		class TransportMagazines {
+			class _xx_10Rnd_762x51_Mag_Tracer {
+				count = 6;
+				magazine  = "10Rnd_762x51_Mag_Tracer";
+			};
+
+			class _xx_10Rnd_762x51_Mk316_Mag {
+				count = 6;
+				magazine  = "10Rnd_762x51_Mk316_Mag";
+			};
+
+			class _xx_10Rnd_762x51_M993_Mag {
+				count = 6;
+				magazine  = "10Rnd_762x51_M993_Mag";
+			};
+		};
+	};
+};
+

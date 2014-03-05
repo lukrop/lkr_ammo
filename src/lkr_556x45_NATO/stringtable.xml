@@ -10,13 +10,34 @@
 			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M855A1 EPR</German>
 		</Key>
 
-		<!-- 30 Round M856A1 Tracer !-->
-		<Key ID="STR_30RND_556x45_TRACER_DISPLAY_NAME">
-			<Original>5.56mm 30rnd M856A1 Tracer</Original>
+		<!-- 30 Round M856A1 Tracer Red !-->
+		<Key ID="STR_30RND_556x45_TRACER_RED_DISPLAY_NAME">
+			<Original>5.56mm 30rnd M856A1 Red Tracer</Original>
+			<German>5.56mm 30rnd M856A1 Rote Tracer</German>
 		</Key>
-		<Key ID="STR_30RND_556x45_TRACER_DESCRIPTION_SHORT">
-			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M856A1 Tracer</Original>
-			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M856A1 Tracer</German>
+		<Key ID="STR_30RND_556x45_TRACER_RED_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M856A1 Red Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M856A1 Roter Tracer</German>
+		</Key>
+
+		<!-- 30 Round M856A1 Tracer Green !-->
+		<Key ID="STR_30RND_556x45_TRACER_GREEN_DISPLAY_NAME">
+			<Original>5.56mm 30rnd M856A1 Green Tracer</Original>
+			<German>5.56mm 30rnd M856A1 Grüne Tracer</German>
+		</Key>
+		<Key ID="STR_30RND_556x45_TRACER_GREEN_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M856A1 Green Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M856A1 Grüner Tracer</German>
+		</Key>
+
+		<!-- 30 Round M856A1 Tracer Yellow !-->
+		<Key ID="STR_30RND_556x45_TRACER_YELLOW_DISPLAY_NAME">
+			<Original>5.56mm 30rnd M856A1 Yellow Tracer</Original>
+			<German>5.56mm 30rnd M856A1 Gelbe Tracer</German>
+		</Key>
+		<Key ID="STR_30RND_556x45_TRACER_YELLOW_DESCRIPTION_SHORT">
+			<Original>Caliber: 5.56x45 mm NATO&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: M856A1 Yellow Tracer</Original>
+			<German>Kaliber: 5.56x45 mm NATO&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: M856A1 Gelber Tracer</German>
 		</Key>
 
 		<!-- 100 Round M855A1 EPR !-->
