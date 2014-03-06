@@ -50,6 +50,19 @@ class CfgWeapons {
 		};
 	};
 	
+	class arifle_mas_hk416_m203: arifle_mas_hk416_gl {
+		magazines[] = {
+			"30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"30Rnd_mas_556x45_Stanag",
+			"30Rnd_mas_556x45_T_Stanag"
+		};
+	};
+
 	class srifle_EBR_F;
 	class srifle_mas_hk417: srifle_EBR_F {
 		magazines[] = {
@@ -62,12 +75,34 @@ class CfgWeapons {
 		};
 	};
 	
-	class srifle_mas_ebr: srifle_EBR_F {
+	class arifle_mas_hk417c: arifle_mas_hk416 {
 		magazines[] = {
 			"20Rnd_762x51_Stanag",
 			"20Rnd_762x51_Stanag_Tracer",
 			"20Rnd_762x51_Mk316_Stanag",
 			"20Rnd_762x51_M993_Stanag",
+			"20Rnd_mas_762x51_Stanag",
+			"20Rnd_mas_762x51_T_Stanag"
+		};
+	};
+
+	class arifle_mas_hk417_m203c: arifle_mas_hk416_m203 {
+		magazines[] = {
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
+			"20Rnd_mas_762x51_Stanag",
+			"20Rnd_mas_762x51_T_Stanag"
+		};
+	};
+
+	class srifle_mas_ebr: srifle_EBR_F {
+		magazines[] = {
+			"20Rnd_762x51_Mag",
+			"20Rnd_762x51_Mag_Tracer",
+			"20Rnd_762x51_Mk316_Mag",
+			"20Rnd_762x51_M993_Mag",
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
