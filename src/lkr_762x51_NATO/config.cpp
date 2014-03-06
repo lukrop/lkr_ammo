@@ -20,12 +20,14 @@ class CfgPatches {
 		};
 		weapons[] = {
 			"DMR_01_base_F",
-			"EBR_base_F"
+			"EBR_base_F",
+			"LMG_Zafir_F"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
 			"A3_Weapons_F_EPA_EBR",
 			"A3_Weapons_F_EPA_LongRangeRifles_DMR_01",
+			"A3_Weapons_F_Machineguns_Zafir",
 			"A3_Weapons_F_beta_Ammoboxes",
 			"A3_Weapons_F_EPB_Ammoboxes"
 		};
@@ -227,18 +229,18 @@ class CfgMagazines {
 
 	// 100Rnd M80A1
 	class 100Rnd_762x51_Box : 150Rnd_762x51_Box {
+		ammo = "B_762x51_Tracer_Red";
 		count = 100;
 		displayName = $STR_100RND_762x51_DISPLAY_NAME;
 		descriptionShort = $STR_100RND_762x51_DESCRIPTION_SHORT;
 	};
 	
 	// 100Rnd M62 Tracer
-	class 100Rnd_762x51_Box_Tracer_Red : 150Rnd_762x51_Box_Tracer {
+	class 100Rnd_762x51_Box_Tracer : 150Rnd_762x51_Box_Tracer {
 		ammo = "B_762x51_Tracer_Red";
 		count = 100;
 		displayName = $STR_100RND_762x51_TRACER_DISPLAY_NAME;
 		descriptionShort = $STR_100RND_762x51_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 5;
 	};
 	
 };
@@ -263,6 +265,14 @@ class CfgWeapons {
 		};
 	};
 	
+	class LMG_Zafir_F : Rifle_Long_Base_F {
+		magazines[] = {
+			"150Rnd_762x51_Box",
+			"150Rnd_762x51_Box_Tracer",
+			"100Rnd_762x51_Box",
+			"100Rnd_762x51_Box_Tracer"
+		};
+	};
 };
 
 class CfgVehicles {
