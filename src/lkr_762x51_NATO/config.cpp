@@ -74,7 +74,7 @@ class CfgAmmo {
 
 	// M993 armor-piercing
 	class B_762x51_M993_Ball : B_762x51_Ball {
-		hit = 15;
+		hit = 16;
 		typicalSpeed = 788;
 		//airFriction = ;
 		caliber = 2;
