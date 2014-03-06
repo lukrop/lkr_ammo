@@ -102,7 +102,7 @@ class CfgMagazines {
 		ammo = "B_762x51_Tracer_Red";
 		displayName = $STR_20RND_762x51_TRACER_DISPLAY_NAME;
 		descriptionShort = $STR_20RND_762x51_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+		tracersEvery = 1;
 	};
 	
 	// 20Rnd Mk316
@@ -131,7 +131,7 @@ class CfgMagazines {
 		ammo = "B_762x51_Tracer_Red";
 		displayName = $STR_20RND_762x51_TRACER_DISPLAY_NAME;
 		descriptionShort = $STR_20RND_762x51_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+		tracersEvery = 1;
 	};
 
 	// 20Rnd Mk316 STANAG
@@ -162,7 +162,7 @@ class CfgMagazines {
 		ammo = "B_762x51_Tracer_Red";
 		displayName = $STR_10RND_762x51_TRACER_DISPLAY_NAME;
 		descriptionShort = $STR_10RND_762x51_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+		tracersEvery = 1;
 	};
 	
 	// 10Rnd Mk316
@@ -196,7 +196,7 @@ class CfgMagazines {
 		ammo = "B_762x51_Tracer_Red";
 		displayName = $STR_5RND_762x51_TRACER_DISPLAY_NAME;
 		descriptionShort = $STR_5RND_762x51_TRACER_DESCRIPTION_SHORT;
-		tracerEvery = 1;
+		tracersEvery = 1;
 	};
 	
 	// 5Rnd Mk316
