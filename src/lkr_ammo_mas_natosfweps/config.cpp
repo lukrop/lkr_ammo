@@ -162,9 +162,7 @@ class CfgWeapons {
 			"100Rnd_762x51_Box",
 			"100Rnd_762x51_Box_Tracer",
 			"100Rnd_mas_762x51_Stanag",
-			"100Rnd_mas_762x51_T_Stanag",
-			"150Rnd_762x51_Box",
-			"150Rnd_762x51_Box_Tracer"
+			"100Rnd_mas_762x51_T_Stanag"
 		};
 	};
 	
@@ -173,9 +171,7 @@ class CfgWeapons {
 			"100Rnd_762x51_Box",
 			"100Rnd_762x51_Box_Tracer",
 			"100Rnd_mas_762x51_Stanag",
-			"100Rnd_mas_762x51_T_Stanag",
-			"150Rnd_762x51_Box",
-			"150Rnd_762x51_Box_Tracer"
+			"100Rnd_mas_762x51_T_Stanag"
 		};
 	};
 	
