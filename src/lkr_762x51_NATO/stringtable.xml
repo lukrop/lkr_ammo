@@ -19,6 +19,24 @@
 			<German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: M62 Tracer</German>
 		</Key>
 
+		<!-- 5Rnd Mk316 !-->
+		<Key ID="STR_5RND_762x51_MK316_DISPLAY_NAME">
+			<Original>7.62mm 5rnd Mk316</Original>
+		</Key>
+		<Key ID="STR_5RND_762x51_MK316_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: Mk316 Mod 0</Original>
+			<German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: Mk316 Mod 0</German>
+		</Key>
+
+		<!-- 5Rnd M993 !-->
+		<Key ID="STR_5RND_762x51_M993_DISPLAY_NAME">
+			<Original>7.62mm 5rnd M993 AP</Original>
+		</Key>
+		<Key ID="STR_5RND_762x51_M993_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x51 mm NATO&lt;br /&gt;Rounds: 5&lt;br /&gt;Cartridge: M993 AP</Original>
+			<German>Kaliber: 7.62x51 mm NATO&lt;br /&gt;Kugeln: 5&lt;br /&gt;Patrone: M993 AP</German>
+		</Key>
+
 		<!-- 10Rnd M80A1 !-->
 		<Key ID="STR_10RND_762x51_DISPLAY_NAME">
 			<Original>7.62mm 10rnd M80A1</Original>
