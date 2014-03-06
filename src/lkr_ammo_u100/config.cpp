@@ -38,16 +38,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
@@ -56,16 +50,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
@@ -74,16 +62,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
@@ -92,16 +74,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
@@ -110,28 +86,20 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
 	
 	class ej_scar_h_short: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -139,12 +107,10 @@ class CfgWeapons {
 	
 	class ej_scar_h_shortafg: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -152,12 +118,10 @@ class CfgWeapons {
 	
 	class ej_scar_longbarrel: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -165,12 +129,10 @@ class CfgWeapons {
 	
 	class ej_scar_h_shortblack: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -180,28 +142,20 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
 	
 	class ej_scarshorteglm: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -211,28 +165,20 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"scar_mag"
 		};
 	};
 	
 	class ej_m110: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -241,25 +187,15 @@ class CfgWeapons {
 	class ej_scarlsw: Ej_u100_base {
 		magazines[] = {
 			"200Rnd_556x45_Box",
-			"200Rnd_556x45_Box_Tracer_Red",
-			"200Rnd_556x45_Box_Tracer_Green",
+			"200Rnd_556x45_Box_Tracer",
 			"100Rnd_556x45_Pouch",
-			"100Rnd_556x45_Pouch_Tracer_Red",
-			"100Rnd_556x45_Pouch_Tracer_Green",
+			"100Rnd_556x45_Pouch_Tracer",
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
-			"200Rnd_mas_556x45_Stanag",
-			"200Rnd_mas_556x45_T_Stanag",
 			"u100_mag",
 			"u100rt_mag",
 			"u100gt_mag",
@@ -269,12 +205,10 @@ class CfgWeapons {
 	
 	class ej_HK417: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -282,12 +216,10 @@ class CfgWeapons {
 	
 	class ej_HK41712: Ej_u100_base {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -296,11 +228,9 @@ class CfgWeapons {
 	class ej_m24d: Ej_u100_base {
 		magazines[] = {
 			"5Rnd_762x51_Mag",
-			"5Rnd_762x51_Mag_Tracer_Green",
-			"5Rnd_762x51_Mag_Tracer_Red",
+			"5Rnd_762x51_Mag_Tracer",
 			"5Rnd_762x51_Mk316_Mag",
-			"5Rnd_762x51_Mk316_Mag_Tracer_Green",
-			"5Rnd_762x51_Mk316_Mag_Tracer_Red",
+			"5Rnd_762x51_M993_Mag",
 			"M24_mag"
 		};
 	};

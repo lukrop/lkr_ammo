@@ -119,6 +119,35 @@ class CfgMagazines {
 		descriptionShort = $STR_20RND_762x51_M993_DESCRIPTION_SHORT;
 	};
 	
+	// 20Rnd M80A1 STANAG
+	class 20Rnd_762x51_Stanag : 20Rnd_762x51_Mag {
+		picture = "\A3\weapons_f\data\ui\m_20stanag_CA.paa";
+	};
+
+	// 20Rnd M62 Tracer STANAG
+	class 20Rnd_762x51_Stanag_Tracer : 20Rnd_762x51_Stanag {
+		ammo = "B_762x51_Tracer_Red";
+		displayName = $STR_20RND_762x51_TRACER_DISPLAY_NAME;
+		descriptionShort = $STR_20RND_762x51_TRACER_DESCRIPTION_SHORT;
+		tracerEvery = 1;
+	};
+
+	// 20Rnd Mk316 STANAG
+	class 20Rnd_762x51_Mk316_Stanag : 20Rnd_762x51_Stanag {
+		ammo = "B_762x51_Mk316_Ball";
+		initSpeed = 790;
+		displayName = $STR_20RND_762x51_MK316_DISPLAY_NAME;
+		descriptionShort = $STR_20RND_762x51_MK316_DESCRIPTION_SHORT;
+	};
+
+	// 20Rnd M993 AP STANAG
+	class 20Rnd_762x51_M993_Stanag : 20Rnd_762x51_Stanag {
+		ammo = "B_762x51_M993_Ball";
+		initSpeed = 788;
+		displayName = $STR_20RND_762x51_M993_DISPLAY_NAME;
+		descriptionShort = $STR_20RND_762x51_M993_DESCRIPTION_SHORT;
+	};
+
 	// 10Rnd M80A1
 	class 10Rnd_762x51_Mag : 20Rnd_762x51_Mag {
 		initSpeed = 833;

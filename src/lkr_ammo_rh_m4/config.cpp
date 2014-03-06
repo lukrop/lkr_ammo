@@ -25,16 +25,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"RH_30Rnd_556x45_Mk262"
 		};
 	};
@@ -48,43 +42,18 @@ class CfgVehicles {
 	
 	class RH_m4m16ammobox: Box_NATO_Wps_F {
         class TransportMagazines {
+        	class _xx_30rnd_556x45_Tracer_Red_STANAG {
+                magazine="30rnd_556x45_STANAG_Tracer_Red";
+                count=50;
+            };
+
             class _xx_30rnd_556x45_Mk318_STANAG {
                 magazine="30rnd_556x45_Mk318_STANAG";
                 count=50;
             };
 			
-            class _xx_30Rnd_556x45_Mk318_Stanag_Tracer_Red {
-                magazine="30Rnd_556x45_Mk318_Stanag_Tracer_Red";
-                count=50;
-            };
-			
-            class _xx_30Rnd_556x45_Mk318_Stanag_Tracer_Green {
-                magazine="30Rnd_556x45_Mk318_Stanag_Tracer_Green";
-                count=50;
-            };
-			
-            class _xx_30Rnd_556x45_Mk318_Stanag_Tracer_Yellow {
-                magazine="30Rnd_556x45_Mk318_Stanag_Tracer_Yellow";
-                count=50;
-            };
-			
 			class _xx_30rnd_556x45_Mk262_STANAG {
-                magazine="30rnd_556x45_Mk318_STANAG";
-                count=50;
-            };
-			
-            class _xx_30Rnd_556x45_Mk262_Stanag_Tracer_Red {
-                magazine="30Rnd_556x45_Mk262_Stanag_Tracer_Red";
-                count=50;
-            };
-			
-            class _xx_30Rnd_556x45_Mk262_Stanag_Tracer_Green {
-                magazine="30Rnd_556x45_Mk262_Stanag_Tracer_Green";
-                count=50;
-            };
-			
-            class _xx_30Rnd_556x45_Mk262_Stanag_Tracer_Yellow {
-                magazine="30Rnd_556x45_Mk262_Stanag_Tracer_Yellow";
+                magazine="30rnd_556x45_Mk262_STANAG";
                 count=50;
             };
 			

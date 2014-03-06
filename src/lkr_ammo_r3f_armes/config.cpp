@@ -37,16 +37,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
@@ -60,18 +54,14 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"R3F_30Rnd_556x45_FAMAS",
+			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
+			"R3F_25Rnd_556x45_TRACER_FAMAS",
 			"R3F_30Rnd_556x45_HK416",
 			"R3F_30Rnd_556x45_tracer_hk416"
 		};
@@ -81,16 +71,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
@@ -104,11 +88,9 @@ class CfgWeapons {
 	class R3F_FRF2: Rifle_Base_F {
 		magazines[] = {
 			"10Rnd_762x51_Mag",
-			"10Rnd_762x51_Mag_Tracer_Red",
-			"10Rnd_762x51_Mag_Tracer_Green",
+			"10Rnd_762x51_Mag_Tracer",
 			"10Rnd_762x51_Mk316_Mag",
-			"10Rnd_762x51_Mk316_Mag_Tracer_Green",
-			"10Rnd_762x51_Mk316_Mag_Tracer_Red",
+			"10Rnd_762x51_M993_Mag",
 			"R3F_10Rnd_762x51_FRF2"
 		};
 	};
@@ -135,23 +117,15 @@ class CfgWeapons {
 	class R3F_Minimi: Rifle_Base_F {
 		magazines[] = {
 			"200Rnd_556x45_Box",
-			"200Rnd_556x45_Box_Tracer_Red",
-			"200Rnd_556x45_Box_Tracer_Green",
+			"200Rnd_556x45_Box_Tracer",
 			"100Rnd_556x45_Pouch",
-			"100Rnd_556x45_Pouch_Tracer_Red",
-			"100Rnd_556x45_Pouch_Tracer_Green",
+			"100Rnd_556x45_Pouch_Tracer",
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"R3F_200Rnd_556x45_MINIMI",
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS"
@@ -161,20 +135,17 @@ class CfgWeapons {
 	class R3F_Minimi_762: R3F_Minimi {
 		magazines[] = {
 			"100Rnd_762x51_Box",
-			"100Rnd_762x51_Box_Tracer_Red",
-			"100Rnd_762x51_Box_Tracer_Green",
+			"100Rnd_762x51_Box_Tracer",
 			"R3F_100Rnd_762x51_MINIMI"
 		};
 	};
 	
 	class R3F_HK417M: Rifle_Base_F {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer_Red",
-			"20Rnd_762x51_Mag_Tracer_Green",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Red",
-			"20Rnd_762x51_Mk316_Mag_Tracer_Green",
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
 			"R3F_20Rnd_762x51_HK417",
 			"R3F_20Rnd_762x51_TRACER_HK417"
 		};
@@ -184,16 +155,10 @@ class CfgWeapons {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk318_Stanag_Tracer_Yellow",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Green",
-			"30Rnd_556x45_Mk262_Stanag_Tracer_Yellow",
 			"R3F_30Rnd_556x45_HK416",
 			"R3F_30Rnd_556x45_TRACER_HK416",
 			"R3F_30Rnd_556x45_FAMAS",

@@ -113,6 +113,10 @@ Magazines:
 20Rnd_762x51_Mag_Tracer
 20Rnd_762x51_Mk316_Mag
 20Rnd_762x51_M993_Mag
+20Rnd_762x51_Stanag
+20Rnd_762x51_Stanag_Tracer
+20Rnd_762x51_Mk316_Stanag
+20Rnd_762x51_M993_Stanag
 100Rnd_762x51_Box
 100Rnd_762x51_Box_Tracer
 ````
