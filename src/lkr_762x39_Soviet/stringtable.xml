@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="lkr_545x39_Soviet">
+	<Package name="mags">
+		<!-- 30Rnd 57-N-231 !-->
+		<Key ID="STR_30RND_762x39_DISPLAY_NAME">
+			<Original>7.62mm 30rnd 57-N-231</Original>
+		</Key>
+		<Key ID="STR_30RND_762x39_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: 57-N-231</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: 57-N-231</German>
+		</Key>
+
+		<!-- 100Rnd 57-N-231 !-->
+		<Key ID="STR_100RND_762x39_DISPLAY_NAME">
+			<Original>7.62mm 100rnd 57-N-231</Original>
+		</Key>
+		<Key ID="STR_100RND_762x39_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: 57-N-231</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: 57-N-231</German>
+		</Key>
+	
+		<!-- 30Rnd 57-N-231P Tracer !-->
+		<Key ID="STR_30RND_762x39_TRACER_DISPLAY_NAME">
+			<Original>7.62mm 30rnd 57-N-231P Tracer</Original>
+		</Key>
+		<Key ID="STR_30RND_762x39_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 30&lt;br /&gt;Cartridge: 57-N-231P Tracer</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 30&lt;br /&gt;Patrone: 57-N-231P Tracer</German>
+		</Key>
+
+		<!-- 100Rnd 57-N-231P Tracer !-->
+		<Key ID="STR_100RND_762x39_TRACER_DISPLAY_NAME">
+			<Original>7.62mm 100rnd 57-N-231P Tracer</Original>
+		</Key>
+		<Key ID="STR_100RND_762x39_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: 57-N-231P Tracer</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: 57-N-231P Tracer</German>
+		</Key>
+
+	</Package>
+</Project>
