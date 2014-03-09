@@ -121,6 +121,84 @@ Magazines:
 100Rnd_762x51_Box_Tracer
 ````
 
+lkr_545x39_soviet.pbo
+--------------
+This pbo introduces the 5.45x39mm Soviet ammunition with 4 new rounds. These are the *5N7* Ball, the *7T3* Tracer, the *7N10* enhanced penetration and the
+*7N22* armor-piercing rounds. The magazines are designed for use in AK-74 platforms.
+
+### ATTENTION
+The ballistics of all these rounds are only estimated to my best knowledge.
+
+### Classnames:
+
+Rounds:
+````
+B_545x39_5N7_Ball
+B_545x39_7T3_Tracer
+B_545x39_7N10_Ball
+B_545x39_7N22_Ball
+````
+
+Magazines:
+````
+30Rnd_545x39_Mag
+30Rnd_545x39_Mag_Tracer
+100Rnd_545x39_Drum
+100Rnd_545x39_Drum_Tracer
+30Rnd_545x39_7N10_Mag
+30Rnd_545x39_7N22_Mag
+````
+
+lkr_762x39_soviet.pbo
+--------------
+This pbo introduces the 7.62x39mm Soviet ammunition, used in the AK47/AKM platform. It adds the *57-N-231* ball round and
+the *57-N-231P* tracer round. Both of them in 30 and 100 round magazines.
+
+### ATTENTION
+The ballistics of all these rounds are only estimated to my best knowledge.
+
+### Classnames:
+
+Rounds:
+````
+B_762x39_57N231_Ball
+B_762x39_57N231P_Tracer
+````
+
+Magazines:
+````
+30Rnd_762x39_Mag
+30Rnd_762x39_Mag_Tracer
+100Rnd_762x39_Drum
+100Rnd_762x39_Drum_Tracer
+````
+
+lkr_762x54_r.pbo
+--------------
+This pbo introduces the 7.62x54mmR ammunition used in platforms such as the PKM or the SVD. It adds 3 new rounds.
+The *57-N-323S* ball round, the *7T2* tracer round and the *7N1* sniper load round.
+
+### ATTENTION
+The ballistics of all these rounds are only estimated to my best knowledge.
+
+### Classnames:
+
+Rounds:
+````
+B_762x54_57N323S_Ball
+B_762x54_7T2_Tracer
+B_762x54_7N1_Ball
+````
+
+Magazines:
+````
+10Rnd_762x54_Mag
+10Rnd_762x54_Mag_Tracer
+10Rnd_762x54_7N1_Mag
+100Rnd_762x54_Box
+100Rnd_762x54_Box_Tracer
+````
+
 Optional .pbos
 --------------
 The following .pbos make the specific addon compatible with the new rounds/magazines. They also serve as example
@@ -132,3 +210,4 @@ for mod authors.
 * lkr_ammo_rh_m4.pbo
 * lkr_ammo_rhard_mk18.pbo
 * lkr_ammo_u100.pbo
+* lkr_ammo_sud_russians.pbo
