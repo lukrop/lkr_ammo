@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="lkr_545x39_Soviet">
+	<Package name="mags">
+		<!-- 10Rnd 57-N-323S !-->
+		<Key ID="STR_10RND_762x54_DISPLAY_NAME">
+			<Original>7.62mm 10rnd 57-N-323S</Original>
+		</Key>
+		<Key ID="STR_10RND_762x54_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: 57-N-323S</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: 57-N-323S</German>
+		</Key>
+
+		<!-- 10Rnd 7T2 Tracer !-->
+		<Key ID="STR_10RND_762x54_TRACER_DISPLAY_NAME">
+			<Original>7.62mm 10rnd 7T2 Tracer</Original>
+		</Key>
+		<Key ID="STR_10RND_762x54_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: 7T2 Tracer</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: 7T2 Tracer</German>
+		</Key>
+	
+		<!-- 10Rnd 7N1 Sniper load !-->
+		<Key ID="STR_10RND_762x54_7N1_DISPLAY_NAME">
+			<Original>7.62mm 10rnd 7N1</Original>
+		</Key>
+		<Key ID="STR_10RND_762x54_7N1_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 10&lt;br /&gt;Cartridge: 7N1 Sniper load</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 10&lt;br /&gt;Patrone: 7N1 Sniper load</German>
+		</Key>
+
+		<!-- 100Rnd 57-N-323S !-->
+		<Key ID="STR_100RND_762x54_DISPLAY_NAME">
+			<Original>7.62mm 100rnd 57-N-323S</Original>
+		</Key>
+		<Key ID="STR_100RND_762x54_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: 57-N-323S</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: 57-N-323S</German>
+		</Key>
+
+		<!-- 100Rnd 7T2 Tracer !-->
+		<Key ID="STR_100RND_762x54_TRACER_DISPLAY_NAME">
+			<Original>7.62mm 100rnd 7T2 Tracer</Original>
+		</Key>
+		<Key ID="STR_100RND_762x54_TRACER_DESCRIPTION_SHORT">
+			<Original>Caliber: 7.62x39 mm Soviet&lt;br /&gt;Rounds: 100&lt;br /&gt;Cartridge: 7T2 Tracer</Original>
+			<German>Kaliber: 7.62x39 mm Soviet&lt;br /&gt;Kugeln: 100&lt;br /&gt;Patrone: 7T2 Tracer</German>
+		</Key>
+
+	</Package>
+</Project>
