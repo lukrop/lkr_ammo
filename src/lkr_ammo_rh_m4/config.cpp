@@ -21,6 +21,17 @@ class CfgPatches {
 
 class CfgWeapons {
 	class Rifle_Base_F;
+
+	class RH_ar10: Rifle_Base_F {
+		magazines[] = {
+			"20Rnd_762x51_Stanag",
+			"20Rnd_762x51_Stanag_Tracer",
+			"20Rnd_762x51_Mk316_Stanag",
+			"20Rnd_762x51_M993_Stanag",
+            "RH_20Rnd_762x51_AR10"
+        };
+	};
+
 	class RH_m4: Rifle_Base_F {
 		magazines[] = {
 			"30Rnd_556x45_Stanag",
@@ -32,6 +43,20 @@ class CfgWeapons {
 			"RH_30Rnd_556x45_Mk262"
 		};
 	};
+
+	class RH_M16A4;
+	class RH_Mk12mod1: RH_M16A4 {
+		magazines[] = {
+			"30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Mk318_Stanag",
+			"30Rnd_556x45_Mk262_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"RH_30Rnd_556x45_Mk262"
+		};
+	};
+
 };
 
 class CfgVehicles {
