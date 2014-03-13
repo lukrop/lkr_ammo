@@ -390,6 +390,33 @@ class CfgWeapons {
 		};
 	};
 
+	class hgun_P07_F;
+	class hgun_mas_m9_F: hgun_P07_F {
+		magazines[] = {
+			"15Rnd_9x19_FMJFT_Mag",
+			"15Rnd_9x19_JHP_Mag",
+			"15Rnd_9x19_FMJP_Mag",
+			"15Rnd_mas_9x21_Mag"
+		};
+	};
+
+	class hgun_mas_bhp_F: hgun_P07_F {
+		magazines[] = {
+			"15Rnd_9x19_FMJFT_Mag",
+			"15Rnd_9x19_JHP_Mag",
+			"15Rnd_9x19_FMJP_Mag",
+			"15Rnd_mas_9x21_Mag"
+		};
+	};
+
+	class hgun_mas_glock_F: hgun_P07_F {
+		magazines[] = {
+			"17Rnd_9x19_FMJFT_Mag",
+			"17Rnd_9x19_JHP_Mag",
+			"17Rnd_9x19_FMJP_Mag",
+			"17Rnd_mas_9x21_Mag"
+		};
+	};
 };
 
 class CfgVehicles {
