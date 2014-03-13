@@ -66,6 +66,7 @@ class CfgAmmo {
 };
 
 class CfgMagazines {
+	// 16 round FMJ
 	class 16Rnd_9x21_Mag;
 	class 16Rnd_9x19_FMJFT_Mag : 16Rnd_9x21_Mag {
 		ammo = "B_9x19_FMJFT";
@@ -73,20 +74,57 @@ class CfgMagazines {
 		displayName = $STR_16RND_9x19_FMJFT_DISPLAY_NAME;
 		descriptionShort = $STR_16RND_9x19_FMJFT_DESCRIPTION_SHORT;
 	};
-	
+	// 16 round JHP
 	class 16Rnd_9x19_JHP_Mag : 16Rnd_9x21_Mag {
 		ammo = "B_9x19_JHP";
 		initSpeed = 350.52;
 		displayName = $STR_16RND_9x19_JHP_DISPLAY_NAME;
 		descriptionShort = $STR_16RND_9x19_JHP_DESCRIPTION_SHORT;
 	};
-	
+	// 16 round FMJP
 	class 16Rnd_9x19_FMJP_Mag : 16Rnd_9x21_Mag {
 		ammo = "B_9x19_FMJP";
 		initSpeed = 393.192;
 		displayName = $STR_16RND_9x19_FMJP_DISPLAY_NAME;
 		descriptionShort = $STR_16RND_9x19_FMJP_DESCRIPTION_SHORT;
 	};
+	// 15 Round FMJ
+	class 15Rnd_9x19_FMJFT_Mag : 16Rnd_9x19_FMJFT_Mag {
+		count = 15;
+		displayName = $STR_15RND_9x19_FMJFT_DISPLAY_NAME;
+		descriptionShort = $STR_15RND_9x19_FMJFT_DESCRIPTION_SHORT;
+	};
+	// 15 Round JHP
+	class 15Rnd_9x19_JHP_Mag : 16Rnd_9x19_JHP_Mag {
+		count = 15;
+		displayName = $STR_15RND_9x19_JHP_DISPLAY_NAME;
+		descriptionShort = $STR_15RND_9x19_JHP_DESCRIPTION_SHORT;
+	};
+	// 15 Round FMJP
+	class 15Rnd_9x19_FMJP_Mag : 16Rnd_9x19_FMJP_Mag {
+		count = 15;
+		displayName = $STR_15RND_9x19_FMJP_DISPLAY_NAME;
+		descriptionShort = $STR_15RND_9x19_FMJP_DESCRIPTION_SHORT;
+	};
+	// 17 Round FMJ
+	class 17Rnd_9x19_FMJFT_Mag : 16Rnd_9x19_FMJFT_Mag {
+		count = 17;
+		displayName = $STR_17RND_9x19_FMJFT_DISPLAY_NAME;
+		descriptionShort = $STR_17RND_9x19_FMJFT_DESCRIPTION_SHORT;
+	};
+	// 17 Round JHP
+	class 17Rnd_9x19_JHP_Mag : 16Rnd_9x19_JHP_Mag {
+		count = 17;
+		displayName = $STR_17RND_9x19_JHP_DISPLAY_NAME;
+		descriptionShort = $STR_17RND_9x19_JHP_DESCRIPTION_SHORT;
+	};
+	// 17 Round FMJP
+	class 17Rnd_9x19_FMJP_Mag : 16Rnd_9x19_FMJP_Mag {
+		count = 17;
+		displayName = $STR_17RND_9x19_FMJP_DISPLAY_NAME;
+		descriptionShort = $STR_17RND_9x19_FMJP_DESCRIPTION_SHORT;
+	};
+	// 30 round FMJ
 	class 30Rnd_9x21_Mag;
 	class 30Rnd_9x19_FMJFT_Mag : 30Rnd_9x21_Mag {
 		ammo = "B_9x19_FMJFT";
@@ -94,14 +132,14 @@ class CfgMagazines {
 		displayName = $STR_30RND_9x19_FMJFT_DISPLAY_NAME;
 		descriptionShort = $STR_30RND_9x19_FMJFT_DESCRIPTION_SHORT;
 	};
-	
+	// 30 round JHP
 	class 30Rnd_9x19_JHP_Mag : 30Rnd_9x21_Mag {
 		ammo = "B_9x19_JHP";
 		initSpeed = 350.52;
 		displayName = $STR_30RND_9x19_JHP_DISPLAY_NAME;
 		descriptionShort = $STR_30RND_9x19_JHP_DESCRIPTION_SHORT;
 	};
-	
+	// 30 round FMJP
 	class 30Rnd_9x19_FMJP_Mag : 30Rnd_9x21_Mag {
 		ammo = "B_9x19_FMJP";
 		initSpeed = 393.192;
