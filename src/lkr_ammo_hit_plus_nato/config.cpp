@@ -20,7 +20,7 @@ class CfgPatches {
 	};
 };
 
-#define hitplus 5
+#define hitplus 7
 
 class CfgAmmo {
 	class BulletBase;
@@ -37,7 +37,7 @@ class CfgAmmo {
 	
 	// Mk262 
 	class B_556x45_Mk262_Ball : B_556x45_Ball {
-		hit = 10.26 + hitplus;
+		hit = 10.26 + hitplus
 	};
 
 	// M80A1
