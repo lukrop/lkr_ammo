@@ -4,8 +4,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 */
 
-#include "lkr_556x45_NATO\macros.hpp"
-#include "lkr_762x51_NATO\macros.hpp"
+#include "\lkr_556x45_NATO\macros.hpp"
+#include "\lkr_762x51_NATO\macros.hpp"
 
 class CfgPatches {
 	class lkr_ammo_u100 {

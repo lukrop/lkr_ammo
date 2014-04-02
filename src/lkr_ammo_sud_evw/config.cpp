@@ -4,10 +4,10 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 */
 
-#include "lkr_556x45_NATO\macros.hpp"
-#include "lkr_762x51_NATO\macros.hpp"
-#include "lkr_545x39_Soviet\macros.hpp"
-#include "lkr_762x54_R\macros.hpp"
+#include "\lkr_556x45_NATO\macros.hpp"
+#include "\lkr_762x51_NATO\macros.hpp"
+#include "\lkr_545x39_Soviet\macros.hpp"
+#include "\lkr_762x54_R\macros.hpp"
 
 class CfgPatches {
 	class lkr_ammo_sud_evw {
