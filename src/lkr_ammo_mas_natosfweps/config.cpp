@@ -4,6 +4,13 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 */
 
+#include "lkr_556x45_NATO\macros.hpp"
+#include "lkr_762x51_NATO\macros.hpp"
+#include "lkr_545x39_Soviet\macros.hpp"
+#include "lkr_762x39_Soviet\macros.hpp"
+#include "lkr_762x54_R\macros.hpp"
+#include "lkr_9x19_Parabellum\macros.hpp"
+
 class CfgPatches {
 	class lkr_ammo_mas_natosfweps {
 		units[] = {};
@@ -29,12 +36,7 @@ class CfgWeapons {
 	class arifle_MX_F;
 	class arifle_mas_hk416: arifle_MX_F {
 		magazines[] = {
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_MAGS,
 			"30Rnd_mas_556x45_Stanag",
 			"30Rnd_mas_556x45_T_Stanag"
 		};
@@ -42,12 +44,7 @@ class CfgWeapons {
 	class arifle_MX_GL_F;
 	class arifle_mas_hk416_gl: arifle_MX_GL_F {
 		magazines[] = {
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_MAGS,
 			"30Rnd_mas_556x45_Stanag",
 			"30Rnd_mas_556x45_T_Stanag"
 		};
@@ -55,12 +52,7 @@ class CfgWeapons {
 	
 	class arifle_mas_hk416_m203: arifle_mas_hk416_gl {
 		magazines[] = {
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_MAGS,
 			"30Rnd_mas_556x45_Stanag",
 			"30Rnd_mas_556x45_T_Stanag"
 		};
@@ -69,10 +61,7 @@ class CfgWeapons {
 	class srifle_EBR_F;
 	class srifle_mas_hk417: srifle_EBR_F {
 		magazines[] = {
-			"20Rnd_762x51_Stanag",
-			"20Rnd_762x51_Stanag_Tracer",
-			"20Rnd_762x51_Mk316_Stanag",
-			"20Rnd_762x51_M993_Stanag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -80,10 +69,7 @@ class CfgWeapons {
 	
 	class arifle_mas_hk417c: arifle_mas_hk416 {
 		magazines[] = {
-			"20Rnd_762x51_Stanag",
-			"20Rnd_762x51_Stanag_Tracer",
-			"20Rnd_762x51_Mk316_Stanag",
-			"20Rnd_762x51_M993_Stanag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -91,10 +77,7 @@ class CfgWeapons {
 
 	class arifle_mas_hk417_m203c: arifle_mas_hk416_m203 {
 		magazines[] = {
-			"20Rnd_762x51_Stanag",
-			"20Rnd_762x51_Stanag_Tracer",
-			"20Rnd_762x51_Mk316_Stanag",
-			"20Rnd_762x51_M993_Stanag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -102,10 +85,7 @@ class CfgWeapons {
 
 	class srifle_mas_ebr: srifle_EBR_F {
 		magazines[] = {
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag_Tracer",
-			"20Rnd_762x51_Mk316_Mag",
-			"20Rnd_762x51_M993_Mag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -114,10 +94,7 @@ class CfgWeapons {
 	class srifle_LRR_F;
 	class srifle_mas_m24: srifle_LRR_F {
 		magazines[] = {
-			"5Rnd_762x51_Mag",
-			"5Rnd_762x51_Mag_Tracer",
-			"5Rnd_762x51_Mk316_Mag",
-			"5Rnd_762x51_M993_Mag",
+			_LKR_762x51_NATO_LOOSE,
 			"5Rnd_mas_762x51_Stanag",
 			"5Rnd_mas_762x51_T_Stanag"
 		};
@@ -125,9 +102,7 @@ class CfgWeapons {
 	class SMG_02_F;
 	class arifle_mas_mp5: SMG_02_F {
 		magazines[] = {
-			"30Rnd_9x19_FMJFT_Mag",
-			"30Rnd_9x19_JHP_Mag",
-			"30Rnd_9x19_FMJP_Mag",
+			_LKR_9x19_PARABELLUM_30RND_MAGS,
 			"30Rnd_mas_9x21_Stanag",
 			"30Rnd_9x21_Mag"
 		};
@@ -136,16 +111,8 @@ class CfgWeapons {
 	class LMG_Mk200_F;
 	class LMG_mas_Mk200_F: LMG_Mk200_F {
 		magazines[] = {
-			"200Rnd_556x45_Box",
-			"200Rnd_556x45_Box_Tracer",
-			"100Rnd_556x45_Pouch",
-			"100Rnd_556x45_Pouch_Tracer",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_BELTS,
+			_LKR_556x45_NATO_MAGS,
 			"200Rnd_mas_556x45_Stanag",
 			"200Rnd_mas_556x45_T_Stanag",
 			"30Rnd_mas_556x45_Stanag",
@@ -156,16 +123,8 @@ class CfgWeapons {
 	
 	class LMG_mas_M249_F: LMG_Mk200_F {
 		magazines[] = {
-			"200Rnd_556x45_Box",
-			"200Rnd_556x45_Box_Tracer",
-			"100Rnd_556x45_Pouch",
-			"100Rnd_556x45_Pouch_Tracer",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_BELTS,
+			_LKR_556x45_NATO_MAGS,
 			"200Rnd_mas_556x45_Stanag",
 			"200Rnd_mas_556x45_T_Stanag",
 			"30Rnd_mas_556x45_Stanag",
@@ -176,16 +135,8 @@ class CfgWeapons {
 	
 	class LMG_mas_M249a_F: LMG_mas_M249_F {
 		magazines[] = {
-			"200Rnd_556x45_Box",
-			"200Rnd_556x45_Box_Tracer",
-			"100Rnd_556x45_Pouch",
-			"100Rnd_556x45_Pouch_Tracer",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_BELTS,
+			_LKR_556x45_NATO_MAGS,
 			"200Rnd_mas_556x45_Stanag",
 			"200Rnd_mas_556x45_T_Stanag",
 			"30Rnd_mas_556x45_Stanag",
@@ -197,8 +148,7 @@ class CfgWeapons {
 	
 	class LMG_mas_mk48_F: LMG_Mk200_F {
 		magazines[] = {
-			"100Rnd_762x51_Box",
-			"100Rnd_762x51_Box_Tracer",
+			_LKR_762x51_NATO_BELTS,
 			"100Rnd_mas_762x51_Stanag",
 			"100Rnd_mas_762x51_T_Stanag"
 		};
@@ -206,8 +156,7 @@ class CfgWeapons {
 	
 	class LMG_mas_m240_F: LMG_mas_mk48_F {
 		magazines[] = {
-			"100Rnd_762x51_Box",
-			"100Rnd_762x51_Box_Tracer",
+			_LKR_762x51_NATO_BELTS,
 			"100Rnd_mas_762x51_Stanag",
 			"100Rnd_mas_762x51_T_Stanag"
 		};
@@ -215,10 +164,7 @@ class CfgWeapons {
 	
 	class arifle_mas_g3: arifle_mas_hk416 {
 		magazines[] = {
-			"20Rnd_762x51_Stanag",
-			"20Rnd_762x51_Stanag_Tracer",
-			"20Rnd_762x51_Mk316_Stanag",
-			"20Rnd_762x51_M993_Stanag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -226,10 +172,7 @@ class CfgWeapons {
 	
 	class arifle_mas_fal: arifle_mas_g3 {
 		magazines[] = {
-			"20Rnd_762x51_Stanag",
-			"20Rnd_762x51_Stanag_Tracer",
-			"20Rnd_762x51_Mk316_Stanag",
-			"20Rnd_762x51_M993_Stanag",
+			_LKR_762x51_NATO_MAGS,
 			"20Rnd_mas_762x51_Stanag",
 			"20Rnd_mas_762x51_T_Stanag"
 		};
@@ -238,12 +181,8 @@ class CfgWeapons {
 	class arifle_Katiba_F;
 	class arifle_mas_ak_74m: arifle_Katiba_F {
 		magazines[] = {
-			"30Rnd_545x39_Mag",
-			"30Rnd_545x39_Mag_Tracer",
-			"30Rnd_545x39_7N10_Mag",
-			"30Rnd_545x39_7N22_Mag",
-			"100Rnd_545x39_Drum",
-			"100Rnd_545x39_Drum_Tracer",
+			_LKR_545x39_SOVIET_MAGS,
+			_LKR_545x39_SOVIET_DRUMS,
 			"30Rnd_mas_545x39_mag",
 			"30Rnd_mas_545x39_T_mag"
 		};
@@ -252,12 +191,8 @@ class CfgWeapons {
 	class arifle_Katiba_GL_F;
 	class arifle_mas_ak_74m_gl: arifle_Katiba_GL_F {
 		magazines[] = {
-			"30Rnd_545x39_Mag",
-			"30Rnd_545x39_Mag_Tracer",
-			"30Rnd_545x39_7N10_Mag",
-			"30Rnd_545x39_7N22_Mag",
-			"100Rnd_545x39_Drum",
-			"100Rnd_545x39_Drum_Tracer",
+			_LKR_545x39_SOVIET_MAGS,
+			_LKR_545x39_SOVIET_DRUMS,
 			"30Rnd_mas_545x39_mag",
 			"30Rnd_mas_545x39_T_mag"
 		};
@@ -265,10 +200,8 @@ class CfgWeapons {
 
 	class arifle_mas_akms: arifle_mas_ak_74m {
 		magazines[] = {
-			"30Rnd_762x39_Mag",
-			"30Rnd_762x39_Mag_Tracer",
-			"100Rnd_762x39_Drum",
-			"100Rnd_762x39_Drum_Tracer",
+			_LKR_762x39_SOVIET_MAGS,
+			_LKR_762x39_SOVIET_DRUMS,
 			"30Rnd_mas_762x39_mag",
 			"30Rnd_mas_762x39_T_mag"
 		};
@@ -276,10 +209,8 @@ class CfgWeapons {
 
 	class arifle_mas_akms_gl: arifle_mas_ak_74m_gl {
 		magazines[] = {
-			"30Rnd_762x39_Mag",
-			"30Rnd_762x39_Mag_Tracer",
-			"100Rnd_762x39_Drum",
-			"100Rnd_762x39_Drum_Tracer",
+			_LKR_762x39_SOVIET_MAGS,
+			_LKR_762x39_SOVIET_DRUMS,
 			"30Rnd_mas_762x39_mag",
 			"30Rnd_mas_762x39_T_mag"
 		};
@@ -287,10 +218,8 @@ class CfgWeapons {
 
 	class arifle_mas_akm_gl: arifle_mas_akms_gl {
 		magazines[] = {
-			"30Rnd_762x39_Mag",
-			"30Rnd_762x39_Mag_Tracer",
-			"100Rnd_762x39_Drum",
-			"100Rnd_762x39_Drum_Tracer",
+			_LKR_762x39_SOVIET_MAGS,
+			_LKR_762x39_SOVIET_DRUMS,
 			"30Rnd_mas_762x39_mag",
 			"30Rnd_mas_762x39_T_mag"
 		};
@@ -298,10 +227,8 @@ class CfgWeapons {
 
 	class arifle_mas_m70_gl: arifle_mas_akm_gl {
 		magazines[] = {
-			"30Rnd_762x39_Mag",
-			"30Rnd_762x39_Mag_Tracer",
-			"100Rnd_762x39_Drum",
-			"100Rnd_762x39_Drum_Tracer",
+			_LKR_762x39_SOVIET_MAGS,
+			_LKR_762x39_SOVIET_DRUMS,
 			"30Rnd_mas_762x39_mag",
 			"30Rnd_mas_762x39_T_mag"
 		};
@@ -309,10 +236,8 @@ class CfgWeapons {
 
 	class arifle_mas_m70ab_gl: arifle_mas_akms_gl {
 		magazines[] = {
-			"30Rnd_762x39_Mag",
-			"30Rnd_762x39_Mag_Tracer",
-			"100Rnd_762x39_Drum",
-			"100Rnd_762x39_Drum_Tracer",
+			_LKR_762x39_SOVIET_MAGS,
+			_LKR_762x39_SOVIET_DRUMS,
 			"30Rnd_mas_762x39_mag",
 			"30Rnd_mas_762x39_T_mag"
 		};
@@ -320,12 +245,8 @@ class CfgWeapons {
 
 	class arifle_mas_aks74u: arifle_Katiba_F {
 		magazines[] = {
-			"30Rnd_545x39_Mag",
-			"30Rnd_545x39_Mag_Tracer",
-			"30Rnd_545x39_7N10_Mag",
-			"30Rnd_545x39_7N22_Mag",
-			"100Rnd_545x39_Drum",
-			"100Rnd_545x39_Drum_Tracer",
+			_LKR_545x39_SOVIET_MAGS,
+			_LKR_545x39_SOVIET_DRUMS,
 			"30Rnd_mas_545x39_mag",
 			"30Rnd_mas_545x39_T_mag"
 		};
@@ -333,9 +254,7 @@ class CfgWeapons {
 
 	class srifle_mas_svd: srifle_EBR_F {
 		magazines[] = {
-			"10Rnd_762x54_Mag",
-			"10Rnd_762x54_Mag_Tracer",
-			"10Rnd_762x54_7N1_Mag",
+			_LKR_762x54_R_10RND_MAGS,
 			"10Rnd_mas_762x54_mag",
 			"10Rnd_mas_762x54_T_mag"
 		};
@@ -343,9 +262,7 @@ class CfgWeapons {
 
 	class srifle_mas_m91: srifle_mas_svd {
 		magazines[] = {
-			"10Rnd_762x54_Mag",
-			"10Rnd_762x54_Mag_Tracer",
-			"10Rnd_762x54_7N1_Mag",
+			_LKR_762x54_R_10RND_MAGS,
 			"10Rnd_mas_762x54_mag",
 			"10Rnd_mas_762x54_T_mag"
 		};
@@ -353,12 +270,8 @@ class CfgWeapons {
 
 	class LMG_mas_rpk_F: LMG_Mk200_F {
 		magazines[] = {
-			"100Rnd_545x39_Drum",
-			"100Rnd_545x39_Drum_Tracer",
-			"30Rnd_545x39_Mag",
-			"30Rnd_545x39_Mag_Tracer",
-			"30Rnd_545x39_7N10_Mag",
-			"30Rnd_545x39_7N22_Mag",
+			_LKR_545x39_SOVIET_DRUMS,
+			_LKR_545x39_SOVIET_MAGS,
 			"100Rnd_mas_545x39_mag",
 			"100Rnd_mas_545x39_T_mag",
 			"30Rnd_mas_545x39_mag",
@@ -368,12 +281,8 @@ class CfgWeapons {
 
 	class LMG_mas_m72_F: LMG_mas_rpk_F {
 		magazines[] = {
-			"100Rnd_545x39_Drum",
-			"100Rnd_545x39_Drum_Tracer",
-			"30Rnd_545x39_Mag",
-			"30Rnd_545x39_Mag_Tracer",
-			"30Rnd_545x39_7N10_Mag",
-			"30Rnd_545x39_7N22_Mag",
+			_LKR_545x39_SOVIET_DRUMS,
+			_LKR_545x39_SOVIET_MAGS,
 			"100Rnd_mas_545x39_mag",
 			"100Rnd_mas_545x39_T_mag",
 			"30Rnd_mas_545x39_mag",
@@ -383,8 +292,7 @@ class CfgWeapons {
 
 	class LMG_mas_pkm_F: LMG_Mk200_F {
 		magazines[] = {
-			"100Rnd_762x54_Box",
-			"100Rnd_762x54_Box_Tracer",
+			_LKR_762x54_R_BELTS,
 			"100Rnd_mas_762x54_mag",
 			"100Rnd_mas_762x54_T_mag"
 		};
@@ -393,27 +301,21 @@ class CfgWeapons {
 	class hgun_P07_F;
 	class hgun_mas_m9_F: hgun_P07_F {
 		magazines[] = {
-			"15Rnd_9x19_FMJFT_Mag",
-			"15Rnd_9x19_JHP_Mag",
-			"15Rnd_9x19_FMJP_Mag",
+			_LKR_9x19_PARABELLUM_15RND_MAGS,
 			"15Rnd_mas_9x21_Mag"
 		};
 	};
 
 	class hgun_mas_bhp_F: hgun_P07_F {
 		magazines[] = {
-			"15Rnd_9x19_FMJFT_Mag",
-			"15Rnd_9x19_JHP_Mag",
-			"15Rnd_9x19_FMJP_Mag",
+			_LKR_9x19_PARABELLUM_15RND_MAGS,
 			"15Rnd_mas_9x21_Mag"
 		};
 	};
 
 	class hgun_mas_glock_F: hgun_P07_F {
 		magazines[] = {
-			"17Rnd_9x19_FMJFT_Mag",
-			"17Rnd_9x19_JHP_Mag",
-			"17Rnd_9x19_FMJP_Mag",
+			_LKR_9x19_PARABELLUM_17RND_MAGS,
 			"17Rnd_mas_9x21_Mag"
 		};
 	};

@@ -4,6 +4,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 */
 
+#include "lkr_556x45_NATO\macros.hpp"
+
 class CfgPatches {
 	class lkr_ammo_fhq_m4 {
 		units[] = {};
@@ -13,18 +15,16 @@ class CfgPatches {
 			"lkr_556x45_NATO",
 			"FHQ_M4_M4A1"
 		};
+		author[] = {
+			"lukrop"
+		};
 	};
 };
 class CfgWeapons {
 	class Rifle_Base_F;
 	class FHQ_M4A1_BASE: Rifle_Base_F {
 		magazines[] = {
-			"30Rnd_556x45_STANAG",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_STANAG",
-			"30Rnd_556x45_Mk262_STANAG",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			_LKR_556x45_NATO_MAGS,
 			"FHQ_30Rnd_556x45_Stanag_Tracer_Green",
 			"FHQ_30Rnd_556x45_Stanag_Tracer_IR",
 			"FHQ_30Rnd_556x45_Stanag_Tracer_Red",

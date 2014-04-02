@@ -4,6 +4,8 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
 */
 
+#include "lkr_556x45_NATO\macros.hpp"
+
 class CfgPatches
 {
 	class lkr_ammo_rhard_mk18
@@ -26,12 +28,7 @@ class CfgWeapons
 	class Rifle_Base_F;
 	class RHARD_MK18_base_F: Rifle_Base_F {
 		magazines[] = {
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Mk318_Stanag",
-			"30Rnd_556x45_Mk262_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow"
+			_LKR_556x45_NATO_MAGS
 		};
 	};
 };
