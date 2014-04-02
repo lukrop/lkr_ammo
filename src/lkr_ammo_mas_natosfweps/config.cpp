@@ -21,6 +21,7 @@ class CfgPatches {
 			"lkr_762x51_NATO",
 			"lkr_545x39_Soviet",
 			"lkr_762x39_Soviet",
+			"lkr_762x54_R",
 			"lkr_9x19_Parabellum",
 			"mas_weapons",
 			"mas_weapons_m4",
