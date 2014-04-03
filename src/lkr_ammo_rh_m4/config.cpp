@@ -28,14 +28,14 @@ class CfgWeapons {
 
 	class RH_ar10: Rifle_Base_F {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
             "RH_20Rnd_762x51_AR10"
         };
 	};
 
 	class RH_m4: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"RH_30Rnd_556x45_Mk262"
 		};
 	};
@@ -43,7 +43,7 @@ class CfgWeapons {
 	class RH_M16A4;
 	class RH_Mk12mod1: RH_M16A4 {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"RH_30Rnd_556x45_Mk262"
 		};
 	};

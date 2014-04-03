@@ -199,6 +199,58 @@ Magazines:
 100Rnd_762x54_Box_Tracer
 ````
 
+Macros
+--------------
+Thanks to the suggestion of da12thMonkey it's now possible to use macros to make it easier to
+add magzines to the magazines[] array of a weapon. To use the macros you'll simply have to include
+the corresponding include file.
+
+### 5.45x39 Soviet:
+``#include "\lkr_545x39_Soviet\macros.hpp"``
+````
+LKR_545x39_SOVIET_MAGS
+LKR_545x39_SOVIET_DRUMS
+````
+
+### 5.56x45 NATO:
+``#include "\lkr_556x45_NATO\macros.hpp"``
+````
+LKR_556x45_NATO_MAGS
+LKR_556x45_NATO_BELTS
+````
+
+### 7.62x39 Soviet:
+``#include "\lkr_762x39_Soviet\macros.hpp"``
+````
+LKR_762x39_SOVIET_MAGS
+LKR_762x39_SOVIET_DRUMS
+````
+
+### 7.62x51 NATO:
+``#include "\lkr_762x51_NATO\macros.hpp"``
+````
+LKR_762x51_NATO_MAGS
+LKR_762x51_NATO_BELTS
+LKR_762x51_NATO_5RND_MAGS
+LKR_762x51_NATO_10RND_MAGS
+````
+
+### 7.62x54 R:
+``#include "\lkr_762x54_R\macros.hpp"``
+````
+LKR_762x54_R_10RND_MAGS
+LKR_762x54_R_BELTS
+````
+
+### 9x19 Parabellum:
+``#include "\lkr_9x19_Parabellum\macros.hpp"``
+````
+LKR_9x19_PARABELLUM_15RND_MAGS
+LKR_9x19_PARABELLUM_16RND_MAGS
+LKR_9x19_PARABELLUM_17RND_MAGS
+LKR_9x19_PARABELLUM_30RND_MAGS
+````
+
 Optional .pbos
 --------------
 The following .pbos make the specific addon compatible with the new rounds/magazines. They also serve as example

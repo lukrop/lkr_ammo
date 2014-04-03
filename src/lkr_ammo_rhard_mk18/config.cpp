@@ -28,7 +28,7 @@ class CfgWeapons
 	class Rifle_Base_F;
 	class RHARD_MK18_base_F: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS
+			LKR_556x45_NATO_MAGS
 		};
 	};
 };

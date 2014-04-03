@@ -33,22 +33,22 @@ class CfgWeapons {
 
 	class arifle_SUD_M16: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"SUD_30Rnd_556x45_STANAG"
 		};
 	};
 
 	class arifle_SUD_M16_GL: arifle_SUD_M16 {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"SUD_30Rnd_556x45_STANAG"
 		};
 	};
 
 	class arifle_SUD_AK74: Rifle_Base_F {
 		magazines[] = {
-			_LKR_545x39_SOVIET_MAGS,
-			_LKR_545x39_SOVIET_DRUMS,
+			LKR_545x39_SOVIET_MAGS,
+			LKR_545x39_SOVIET_DRUMS,
 			"SUD_30Rnd_545x39_AK",
 			"SUD_45rnd_545x39_RPK"
 		};
@@ -56,8 +56,8 @@ class CfgWeapons {
 
 	class arifle_SUD_AK74_GL: arifle_SUD_AK74 {
 		magazines[] = {
-			_LKR_545x39_SOVIET_MAGS,
-			_LKR_545x39_SOVIET_DRUMS,
+			LKR_545x39_SOVIET_MAGS,
+			LKR_545x39_SOVIET_DRUMS,
 			"SUD_30Rnd_545x39_AK",
 			"SUD_45rnd_545x39_RPK"
 		};
@@ -65,14 +65,14 @@ class CfgWeapons {
 
 	class LMG_SUD_PK: Rifle_Long_Base_F {
 		magazines[] = {
-			_LKR_762x54_R_BELTS,
+			LKR_762x54_R_BELTS,
 			"SUD_100Rnd_762x54_PK"
 		};
 	};
 
 	class LMG_SUD_M60: Rifle_Long_Base_F {
 		magazines[] = {
-			_LKR_762x51_NATO_BELTS,
+			LKR_762x51_NATO_BELTS,
 			"SUD_100Rnd_762x51_M60"
 		};
 	};

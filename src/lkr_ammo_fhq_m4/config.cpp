@@ -24,7 +24,7 @@ class CfgWeapons {
 	class Rifle_Base_F;
 	class FHQ_M4A1_BASE: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"FHQ_30Rnd_556x45_Stanag_Tracer_Green",
 			"FHQ_30Rnd_556x45_Stanag_Tracer_IR",
 			"FHQ_30Rnd_556x45_Stanag_Tracer_Red",

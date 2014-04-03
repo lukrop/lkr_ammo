@@ -42,7 +42,7 @@ class CfgWeapons {
 	class R3F_Famas_F1;
 	class R3F_Famas_surb: R3F_Famas_F1 {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
@@ -54,7 +54,7 @@ class CfgWeapons {
 	
 	class R3F_Famas_G2: R3F_Famas_F1 {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
@@ -66,7 +66,7 @@ class CfgWeapons {
 	
 	class R3F_Famas_felin: R3F_Famas_G2 {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_25Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS",
@@ -79,7 +79,7 @@ class CfgWeapons {
 	
 	class R3F_FRF2: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_10RND_MAGS,
+			LKR_556x45_NATO_10RND_MAGS,
 			"R3F_10Rnd_762x51_FRF2"
 		};
 	};
@@ -105,8 +105,8 @@ class CfgWeapons {
 	
 	class R3F_Minimi: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_BELTS,
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_BELTS,
+			LKR_556x45_NATO_MAGS,
 			"R3F_200Rnd_556x45_MINIMI",
 			"R3F_30Rnd_556x45_FAMAS",
 			"R3F_30Rnd_556x45_TRACER_FAMAS"
@@ -115,14 +115,14 @@ class CfgWeapons {
 	
 	class R3F_Minimi_762: R3F_Minimi {
 		magazines[] = {
-			_LKR_762x51_NATO_BELTS,
+			LKR_762x51_NATO_BELTS,
 			"R3F_100Rnd_762x51_MINIMI"
 		};
 	};
 	
 	class R3F_HK417M: Rifle_Base_F {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"R3F_20Rnd_762x51_HK417",
 			"R3F_20Rnd_762x51_TRACER_HK417"
 		};
@@ -130,7 +130,7 @@ class CfgWeapons {
 	
 	class R3F_HK416M: Rifle_Base_F {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"R3F_30Rnd_556x45_HK416",
 			"R3F_30Rnd_556x45_TRACER_HK416",
 			"R3F_30Rnd_556x45_FAMAS",
@@ -140,7 +140,7 @@ class CfgWeapons {
 	
 	class R3F_MP5SD: Rifle_Base_F {
 		magazines[] = {
-			_LKR_9x19_PARABELLUM_30RND_MAGS,
+			LKR_9x19_PARABELLUM_30RND_MAGS,
 			"R3F_30Rnd_9x19_MP5",
 			"30Rnd_mas_9x21_Stanag",
 			"30Rnd_mas_9x21d_Stanag"

@@ -39,42 +39,42 @@ class CfgWeapons {
 	class Ej_u100_base;
 	class ej_u100old30: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 
 	class ej_scar: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 	
 	class ej_scarstandard: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 	
 	class ej_scarblack: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 
 	class ej_scarstandardblack: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 	
 	class ej_scar_h_short: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -82,7 +82,7 @@ class CfgWeapons {
 	
 	class ej_scar_h_shortafg: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -90,7 +90,7 @@ class CfgWeapons {
 	
 	class ej_scar_longbarrel: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -98,7 +98,7 @@ class CfgWeapons {
 	
 	class ej_scar_h_shortblack: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -106,14 +106,14 @@ class CfgWeapons {
 	
 	class ej_scarstandardeglm: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 	
 	class ej_scarshorteglm: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -121,14 +121,14 @@ class CfgWeapons {
 	
 	class ej_scarstandardafg: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_MAGS,
 			"scar_mag"
 		};
 	};
 	
 	class ej_m110: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -136,8 +136,8 @@ class CfgWeapons {
 	
 	class ej_scarlsw: Ej_u100_base {
 		magazines[] = {
-			_LKR_556x45_NATO_BELTS,
-			_LKR_556x45_NATO_MAGS,
+			LKR_556x45_NATO_BELTS,
+			LKR_556x45_NATO_MAGS,
 			"u100_mag",
 			"u100rt_mag",
 			"u100gt_mag",
@@ -147,7 +147,7 @@ class CfgWeapons {
 	
 	class ej_HK417: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -155,7 +155,7 @@ class CfgWeapons {
 	
 	class ej_HK41712: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_MAGS,
+			LKR_762x51_NATO_MAGS,
 			"scarhnt_mag",
 			"scarh_mag"
 		};
@@ -163,7 +163,7 @@ class CfgWeapons {
 	
 	class ej_m24d: Ej_u100_base {
 		magazines[] = {
-			_LKR_762x51_NATO_5RND_MAGS,
+			LKR_762x51_NATO_5RND_MAGS,
 			"M24_mag"
 		};
 	};

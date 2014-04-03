@@ -27,8 +27,8 @@ class CfgWeapons {
 	class Rifle_Base_F;
 	class hlc_ak_base: Rifle_Base_F {
 		magazines[] = {
-			_LKR_545x39_SOVIET_MAGS,
-			_LKR_545x39_SOVIET_DRUMS,
+			LKR_545x39_SOVIET_MAGS,
+			LKR_545x39_SOVIET_DRUMS,
 			"hlc_30Rnd_545x39_B_AK",
 			"hlc_30Rnd_545x39_T_AK",
 			"hlc_30Rnd_545x39_EP_AK",
@@ -39,8 +39,8 @@ class CfgWeapons {
 	class hlc_rifle_aks74;
 	class hlc_rifle_ak47: hlc_rifle_aks74 {
 		magazines[] = {
-			_LKR_762x39_SOVIET_MAGS,
-			_LKR_762x39_SOVIET_DRUMS,
+			LKR_762x39_SOVIET_MAGS,
+			LKR_762x39_SOVIET_DRUMS,
 			"hlc_30Rnd_762x39_b_ak",
 			"hlc_30Rnd_762x39_t_ak",
 			"hlc_45Rnd_762x39_m_rpk",
@@ -50,8 +50,8 @@ class CfgWeapons {
 
 	class hlc_rifle_rpk: hlc_rifle_ak47 {
 		magazines[] = {
-			_LKR_762x39_SOVIET_DRUMS,
-			_LKR_762x39_SOVIET_MAGS,
+			LKR_762x39_SOVIET_DRUMS,
+			LKR_762x39_SOVIET_MAGS,
 			"hlc_45Rnd_762x39_m_rpk",
 			"HLC_45rnd_762x39_T_RPK",
 			"hlc_30Rnd_762x39_b_ak",
