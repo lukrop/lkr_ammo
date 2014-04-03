@@ -51,7 +51,6 @@ class CfgAmmo {
 		hit = 8.5 + hitplus;
 	};
 
-	class B_762x51_Ball;
 	// 57-N-323S
 	class B_762x54_57N323S_Ball : B_762x51_Ball {
 		hit = 9 + hitplus;
