@@ -95,7 +95,7 @@ class CfgWeapons {
 	class srifle_LRR_F;
 	class srifle_mas_m24: srifle_LRR_F {
 		magazines[] = {
-			_LKR_762x51_NATO_LOOSE,
+			_LKR_762x51_NATO_5RND_MAGS,
 			"5Rnd_mas_762x51_Stanag",
 			"5Rnd_mas_762x51_T_Stanag"
 		};
