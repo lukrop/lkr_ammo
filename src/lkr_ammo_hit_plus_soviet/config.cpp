@@ -20,7 +20,7 @@ class CfgPatches {
 	};
 };
 
-#define hitplus 7
+#define hitplus 5
 
 class CfgAmmo {
 	class B_556x45_Ball;
