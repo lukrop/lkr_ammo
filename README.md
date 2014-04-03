@@ -251,6 +251,10 @@ LKR_9x19_PARABELLUM_17RND_MAGS
 LKR_9x19_PARABELLUM_30RND_MAGS
 ````
 
+Hit plus optional files
+--------------
+These optional files add the constant of 5 to every rounds hit value. The 9x19 rounds hit values get a even higher constant of 7 added.
+
 Optional .pbos
 --------------
 The following .pbos make the specific addon compatible with the new rounds/magazines. They also serve as example
@@ -263,3 +267,7 @@ for mod authors.
 * lkr_ammo_rhard_mk18.pbo
 * lkr_ammo_u100.pbo
 * lkr_ammo_sud_russians.pbo
+* lkr_ammo_hlcmods_ak.pbo
+* lkr_ammo_hit_plus_9x19.pbo
+* lkr_ammo_hit_plus_nato.pbo
+* lkr_ammo_hit_plus_soviet.pbo
