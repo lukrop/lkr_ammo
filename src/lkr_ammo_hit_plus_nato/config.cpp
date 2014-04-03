@@ -11,8 +11,7 @@ class CfgPatches {
 		requiredVersion = 0.1;
 		requiredAddons[] = {
 			"lkr_556x45_NATO",
-			"lkr_762x51_NATO",
-			"lkr_9x19_Parabellum"
+			"lkr_762x51_NATO"
 		};
 		author[] = {
 			"lukrop"
@@ -61,18 +60,4 @@ class CfgAmmo {
 	class B_762x51_M993_Ball : B_762x51_Ball {
 		hit = 16 + hitplus;
 	};
-
-	class B_9x21_Ball;
-	class B_9x19_FMJFT : B_9x21_Ball {
-		hit = 5.55 + hitplus;
-	};
-	
-	class B_9x19_JHP : B_9x21_Ball {
-		hit = 6.78 + hitplus;
-	};
-	
-	class B_9x19_FMJP : B_9x21_Ball {
-		hit = 5.97 + hitplus;
-	};
-	
 };
